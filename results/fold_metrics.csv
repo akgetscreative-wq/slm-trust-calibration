@@ -1,0 +1,10 @@
+evaluation,held_out_domain,model,train_n,test_n,n,errors,error_prevalence,AUROC_error_risk,AUPRC_error_risk
+leave-one-domain-out,MMLU,Confidence logistic,200,100,100,69,0.69,0.3835904628330995,0.6359762732605339
+leave-one-domain-out,MMLU,Self-check logistic,200,100,100,69,0.69,0.5109864422627396,0.6947865256560908
+leave-one-domain-out,MMLU,Combined logistic,200,100,100,69,0.69,0.44530154277699857,0.6654456662678734
+leave-one-domain-out,GSM8K,Confidence logistic,200,100,100,33,0.33,0.6318407960199004,0.39910337376523475
+leave-one-domain-out,GSM8K,Self-check logistic,200,100,100,33,0.33,0.5836725463591136,0.40848484848484845
+leave-one-domain-out,GSM8K,Combined logistic,200,100,100,33,0.33,0.663048394391678,0.4586890729210472
+leave-one-domain-out,ARC-Challenge,Confidence logistic,200,100,100,39,0.39,0.4751996637242539,0.4011810411810412
+leave-one-domain-out,ARC-Challenge,Self-check logistic,200,100,100,39,0.39,0.5092475830180748,0.39564102564102566
+leave-one-domain-out,ARC-Challenge,Combined logistic,200,100,100,39,0.39,0.4945355191256831,0.40898656898656904

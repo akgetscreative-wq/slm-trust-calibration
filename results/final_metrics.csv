@@ -1,0 +1,13 @@
+evaluation,held_out_domain,model,n,errors,error_prevalence,AUROC_error_risk,AUPRC_error_risk
+pooled_descriptive,all,Constant Prevalence Baseline,300,141,0.47,0.5,0.47
+pooled_descriptive,all,Confidence-only: inverted confidence,300,141,0.47,0.5936259422811009,0.5183291290282717
+pooled_descriptive,all,Self-check-only: NO is risk,300,141,0.47,0.5737990097685,0.5236851620080656
+within-domain_descriptive,MMLU,Constant Prevalence Baseline,100,69,0.69,0.5,0.69
+within-domain_descriptive,MMLU,Confidence-only: inverted confidence,100,69,0.69,0.3835904628330995,0.6359762732605339
+within-domain_descriptive,MMLU,Self-check-only: NO is risk,100,69,0.69,0.5109864422627396,0.6947865256560908
+within-domain_descriptive,GSM8K,Constant Prevalence Baseline,100,33,0.33,0.5,0.33
+within-domain_descriptive,GSM8K,Confidence-only: inverted confidence,100,33,0.33,0.6318407960199004,0.39910337376523475
+within-domain_descriptive,GSM8K,Self-check-only: NO is risk,100,33,0.33,0.5836725463591136,0.40848484848484845
+within-domain_descriptive,ARC-Challenge,Constant Prevalence Baseline,100,39,0.39,0.5,0.39
+within-domain_descriptive,ARC-Challenge,Confidence-only: inverted confidence,100,39,0.39,0.4751996637242539,0.4011810411810412
+within-domain_descriptive,ARC-Challenge,Self-check-only: NO is risk,100,39,0.39,0.5092475830180748,0.39564102564102566

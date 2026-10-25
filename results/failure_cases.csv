@@ -1,0 +1,89 @@
+category,question_id,domain,confidence,self_check,model_answer,note
+High-Confidence Error (Overconfidence),203,MMLU,80.0,YES,2.0,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),247,MMLU,80.0,YES,2.0,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),251,MMLU,80.0,YES,2.0,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),274,MMLU,80.0,YES,2.0,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),297,MMLU,100.0,YES,3.0,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),304,GSM8K,80.0,YES,"To find the total amount of feed Wendi needs to give her chickens, we need to add the feed given in the morning and afte",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),305,GSM8K,80.0,YES,"To calculate the total cost, first find the cost of the glasses at full price and then the cost of the glasses at 60% of",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),312,GSM8K,80.0,YES,"To determine how many years it will take for Carlos to start earning money on the lemon tree, we need to calculate the n",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),313,GSM8K,80.0,YES,"To solve this problem, let's work backwards.  Melanie has 5 vacuum cleaners left. She sold half of what was left at the ",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),315,GSM8K,80.0,NO,"To calculate the profit, we need to calculate the future value of each option.  Jewelry: $5,000 x 2.5% = $125 increase F",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),318,GSM8K,80.0,YES,"To find the total number of eggs Claire will eat in 4 weeks, first calculate the total number of eggs she eats in one we",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),323,GSM8K,80.0,YES,"To find the answer, we need to calculate the total number of hours the candle burns.  From 1:00 PM to 5:00 PM is 4 hours",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),328,GSM8K,80.0,YES,"To find the distance between the first and second stops, we need to find the distance traveled after the first stop and ",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),329,GSM8K,80.0,YES,"To solve this problem, let's start by finding the cost of the second pair of heels. Since it costs twice as much as the ",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),336,GSM8K,80.0,YES,"To find out how much Terry spends on yogurt over 30 days, we need to calculate the total number of yogurts he eats in 30",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),362,GSM8K,80.0,YES,"To calculate Marcy's annual pension after 30 years, we need to calculate the pension for the first 20 years and the rema",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),376,GSM8K,80.0,YES,"To find the number of bags of dog food Cecilia will use in the first year, we need to calculate the amount of food used ",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),387,GSM8K,80.0,YES,"To calculate Sylvie's annual salary after three more years of service, we need to calculate her salary after 5 years, 8 ",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_000,ARC-Challenge,100.0,YES,The correct answer is C) the quantity of mass with which the star began.  The life cycle of a star is primarily determin,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_003,ARC-Challenge,90.0,YES,D,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_004,ARC-Challenge,100.0,YES,"The correct answer is C) Fish.  Fish have been on Earth for the longest period of time, with fossil evidence showing tha",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_005,ARC-Challenge,100.0,YES,The correct answer is C. Winter.,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_007,ARC-Challenge,100.0,YES,The correct answer is D) Relative Motion within the Solar System.  Galileo Galilei is credited with describing the law o,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_008,ARC-Challenge,100.0,YES,"The correct answer is A) Body weight.  Body weight is largely influenced by environmental factors such as diet, exercise",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_012,ARC-Challenge,100.0,YES,"The correct answer is A) excretory and skeletal systems.  The excretory system, which includes the kidneys, liver, and o",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_014,ARC-Challenge,80.0,YES,The correct answer is A) 43°F.  The process described is an example of heat transfer through conduction. The warmer glas,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_016,ARC-Challenge,80.0,YES,"To solve this problem, we need to understand that the concentration of a solution is determined by the amount of solute ",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_019,ARC-Challenge,100.0,YES,D,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_021,ARC-Challenge,100.0,YES,"The correct answer is D) traveling alone.  Dolphins are highly social animals that live in groups, called pods, which pr",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_023,ARC-Challenge,100.0,NO,D,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_025,ARC-Challenge,100.0,YES,The correct answer is B) a 50 mL graduated cylinder.  A graduated cylinder is designed to measure the exact volume of a ,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_027,ARC-Challenge,100.0,YES,"The correct answer is D) electrical energy.  When Tonya plugged in the toaster, electrical energy was converted into hea",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_029,ARC-Challenge,100.0,YES,The correct answer is C) Repetition ensures the accuracy of obtained data.  This choice is the best explanation for why ,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_031,ARC-Challenge,100.0,YES,"The correct answer is B) oxygen and sugar.  Photosynthesis is the process by which plants, algae, and some bacteria conv",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_034,ARC-Challenge,100.0,YES,The correct answer is B) sweat forming on your body when you exercise.  This is an example of water vapor (sweat) changi,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_037,ARC-Challenge,100.0,YES,The correct answer is D) Earth's plates are constantly moving at a very slow rate.  This fact would help Charlie win the,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_039,ARC-Challenge,100.0,YES,D,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_041,ARC-Challenge,100.0,YES,The correct answer is A) changing data to fit expected results.  This is a fundamental ethical principle in scientific i,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_045,ARC-Challenge,100.0,YES,"The correct answer is C) 2.  While plants on Earth require four resources (soil, air, water, and sunlight) to stay alive",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_046,ARC-Challenge,100.0,YES,"The correct answer is C) potential.  When the brakes are applied, the car slows down, and the kinetic energy (the energy",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_047,ARC-Challenge,100.0,YES,The correct answer is D.,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_051,ARC-Challenge,100.0,YES,"The correct answer is B) water.  All cells release water as a byproduct of cellular metabolism, including glycolysis, th",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_054,ARC-Challenge,100.0,YES,The correct answer is C.  The law of conservation of mass states that matter cannot be created or destroyed in a chemica,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_056,ARC-Challenge,100.0,YES,The correct answer is A) frying an egg.  Frying an egg is a chemical change because the heat from the frying process cau,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_059,ARC-Challenge,100.0,YES,"The correct answer is D) by breaking some of the chemical bonds in the comb.  When Greta passed a comb through her hair,",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_064,ARC-Challenge,100.0,YES,The correct answer is C) continuing long-term process.  The movement of crustal plates is a slow and continuous process ,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_068,ARC-Challenge,100.0,YES,"The correct answer is D) water.  Water has a high specific heat capacity, which means it can absorb and store a lot of e",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_072,ARC-Challenge,100.0,YES,"The correct answer is D) newspaper.  Newspapers are typically printed on paper that is made from wood pulp, but the tree",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_073,ARC-Challenge,100.0,YES,The correct answer is B) They eliminate some competition for nutrients.  Sequoia trees in the Sierra Nevada have been ar,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_080,ARC-Challenge,100.0,YES,"The correct answer is D) Oceans.  Both Earth and the moon have oceans, although the moon's oceans are not liquid and are",Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_082,ARC-Challenge,100.0,YES,D,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_083,ARC-Challenge,100.0,YES,The correct answer is D) glaciers.  Evaporation occurs at the highest rate on glaciers because of their unique character,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_090,ARC-Challenge,100.0,YES,The correct answer is A.,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_093,ARC-Challenge,100.0,YES,The correct answer is D) waste production.  Both unicellular and multicellular organisms produce waste. Unicellular orga,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_095,ARC-Challenge,100.0,NO,D,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_097,ARC-Challenge,100.0,YES,The correct answer is A) Copper is a good conductor of electricity.  This statement is an opinion because it expresses a,Model expressed >=80% certainty on an erroneous answer.
+High-Confidence Error (Overconfidence),ARC_099,ARC-Challenge,100.0,YES,"The correct answer is B) It decreases the amount of resources.  As the human population increases, the demand for natura",Model expressed >=80% certainty on an erroneous answer.
+False Reassurance (Affirmative Error),203,MMLU,80.0,YES,2.0,Model endorsed answer with 'YES' despite being objectively incorrect.
+False Reassurance (Affirmative Error),207,MMLU,50.0,YES,2.0,Model endorsed answer with 'YES' despite being objectively incorrect.
+False Reassurance (Affirmative Error),208,MMLU,20.0,YES,2.0,Model endorsed answer with 'YES' despite being objectively incorrect.
+False Reassurance (Affirmative Error),215,MMLU,50.0,YES,2.0,Model endorsed answer with 'YES' despite being objectively incorrect.
+False Reassurance (Affirmative Error),219,MMLU,50.0,YES,2.0,Model endorsed answer with 'YES' despite being objectively incorrect.
+False Reassurance (Affirmative Error),220,MMLU,50.0,YES,2.0,Model endorsed answer with 'YES' despite being objectively incorrect.
+False Reassurance (Affirmative Error),222,MMLU,50.0,YES,2.0,Model endorsed answer with 'YES' despite being objectively incorrect.
+False Reassurance (Affirmative Error),223,MMLU,50.0,YES,2.0,Model endorsed answer with 'YES' despite being objectively incorrect.
+False Reassurance (Affirmative Error),225,MMLU,50.0,YES,3.0,Model endorsed answer with 'YES' despite being objectively incorrect.
+False Reassurance (Affirmative Error),227,MMLU,20.0,YES,3.0,Model endorsed answer with 'YES' despite being objectively incorrect.
+False Reassurance (Affirmative Error),228,MMLU,50.0,YES,2.0,Model endorsed answer with 'YES' despite being objectively incorrect.
+False Reassurance (Affirmative Error),229,MMLU,50.0,YES,2.0,Model endorsed answer with 'YES' despite being objectively incorrect.
+False Reassurance (Affirmative Error),230,MMLU,50.0,YES,2.0,Model endorsed answer with 'YES' despite being objectively incorrect.
+False Reassurance (Affirmative Error),235,MMLU,20.0,YES,2.0,Model endorsed answer with 'YES' despite being objectively incorrect.
+False Reassurance (Affirmative Error),236,MMLU,50.0,YES,2.0,Model endorsed answer with 'YES' despite being objectively incorrect.
+False Alarm (Unwarranted Rejection),209,MMLU,20.0,NO,2.0,Model was objectively correct but rejected its own answer with 'NO'.
+False Alarm (Unwarranted Rejection),214,MMLU,20.0,NO,2.0,Model was objectively correct but rejected its own answer with 'NO'.
+False Alarm (Unwarranted Rejection),216,MMLU,0.0,NO,2.0,Model was objectively correct but rejected its own answer with 'NO'.
+False Alarm (Unwarranted Rejection),217,MMLU,20.0,NO,2.0,Model was objectively correct but rejected its own answer with 'NO'.
+False Alarm (Unwarranted Rejection),226,MMLU,0.0,NO,2.0,Model was objectively correct but rejected its own answer with 'NO'.
+False Alarm (Unwarranted Rejection),240,MMLU,0.0,NO,2.0,Model was objectively correct but rejected its own answer with 'NO'.
+False Alarm (Unwarranted Rejection),244,MMLU,50.0,NO,2.0,Model was objectively correct but rejected its own answer with 'NO'.
+False Alarm (Unwarranted Rejection),245,MMLU,50.0,NO,2.0,Model was objectively correct but rejected its own answer with 'NO'.
+False Alarm (Unwarranted Rejection),283,MMLU,50.0,NO,2.0,Model was objectively correct but rejected its own answer with 'NO'.
+False Alarm (Unwarranted Rejection),292,MMLU,0.0,NO,1.0,Model was objectively correct but rejected its own answer with 'NO'.
+False Alarm (Unwarranted Rejection),299,MMLU,50.0,NO,2.0,Model was objectively correct but rejected its own answer with 'NO'.
+False Alarm (Unwarranted Rejection),316,GSM8K,0.0,NO,"To solve this problem, we need to break it down into two parts: the first day and the second day.  Day 1: Both trains tr",Model was objectively correct but rejected its own answer with 'NO'.
+False Alarm (Unwarranted Rejection),351,GSM8K,20.0,NO,"To find the time it takes Tom to get back, we need to find the distance he traveled from 1 to 4 PM and then divide it by",Model was objectively correct but rejected its own answer with 'NO'.
+False Alarm (Unwarranted Rejection),373,GSM8K,80.0,NO,"To calculate the monthly payment, we need to calculate the total cost of the cell phones and the interest.  Total cost o",Model was objectively correct but rejected its own answer with 'NO'.
+False Alarm (Unwarranted Rejection),ARC_074,ARC-Challenge,0.0,NO,"To estimate the number of bundles of shingles needed, we need to calculate the total number of squares in the roof area ",Model was objectively correct but rejected its own answer with 'NO'.
+False Alarm (Unwarranted Rejection),ARC_079,ARC-Challenge,100.0,NO,The correct answer is D) The tapeworm helps the dog survive.  Tapeworms are parasitic organisms that live in the intesti,Model was objectively correct but rejected its own answer with 'NO'.

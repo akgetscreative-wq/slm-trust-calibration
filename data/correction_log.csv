@@ -1,0 +1,4 @@
+question_id,domain,model,ref_num,pred_num,original_label,audit_label,adjudication_status,reason
+327,GSM8K,llama3.2:3b,16,16.0,0,1,CONFIRMED_HUMAN_AUDIT,"Final numeric answer ($16.00) and step-by-step reasoning match reference ($16). Naive string equality failed on 16 vs 16.0."
+358,GSM8K,llama3.2:3b,57,57.0,0,1,CONFIRMED_HUMAN_AUDIT,"Final numeric answer ($57.00) and step-by-step reasoning match reference ($57). Naive string equality failed on 57 vs 57.0."
+370,GSM8K,llama3.2:3b,7425,7425.0,0,1,CONFIRMED_HUMAN_AUDIT,"Final numeric answer ($7,425.00) and step-by-step reasoning match reference ($7,425). Naive string equality failed on 7425 vs 7425.0."

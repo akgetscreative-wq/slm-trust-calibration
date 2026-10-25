@@ -1,0 +1,1773 @@
+question_id,domain,model_answer,original_correct_label,audit_correct_label,self_confidence_v2,self_check_v2,audit_status_v6,audit_reason_v6,confidence_probability,is_error
+200,MMLU,2.0,0,0.0,20,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.2,1
+201,MMLU,2.0,1,1.0,20,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.2,0
+202,MMLU,3.0,1,1.0,20,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.2,0
+203,MMLU,2.0,0,0.0,80,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.8,1
+204,MMLU,2.0,0,0.0,20,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.2,1
+205,MMLU,2.0,0,0.0,50,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+206,MMLU,2.0,0,0.0,50,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+207,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+208,MMLU,2.0,0,0.0,20,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.2,1
+209,MMLU,2.0,1,1.0,20,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.2,0
+210,MMLU,2.0,1,1.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,0
+211,MMLU,2.0,1,1.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,0
+212,MMLU,2.0,0,0.0,20,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.2,1
+213,MMLU,2.0,1,1.0,20,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.2,0
+214,MMLU,2.0,1,1.0,20,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.2,0
+215,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+216,MMLU,2.0,1,1.0,0,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.0,0
+217,MMLU,2.0,1,1.0,20,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.2,0
+218,MMLU,1.0,0,0.0,0,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.0,1
+219,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+220,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+221,MMLU,2.0,0,0.0,20,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.2,1
+222,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+223,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+224,MMLU,2.0,0,0.0,50,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+225,MMLU,3.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+226,MMLU,2.0,1,1.0,0,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.0,0
+227,MMLU,3.0,0,0.0,20,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.2,1
+228,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+229,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+230,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+231,MMLU,1.0,1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,1.0,0
+232,MMLU,2.0,0,0.0,50,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+233,MMLU,2.0,1,1.0,0,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.0,0
+234,MMLU,2.0,0,0.0,50,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+235,MMLU,2.0,0,0.0,20,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.2,1
+236,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+237,MMLU,3.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+238,MMLU,2.0,1,1.0,0,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.0,0
+239,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+240,MMLU,2.0,1,1.0,0,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.0,0
+241,MMLU,2.0,0,0.0,0,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.0,1
+242,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+243,MMLU,2.0,1,1.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,0
+244,MMLU,2.0,1,1.0,50,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,0
+245,MMLU,2.0,1,1.0,50,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,0
+246,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+247,MMLU,2.0,0,0.0,80,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.8,1
+248,MMLU,2.0,1,1.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,0
+249,MMLU,2.0,0,0.0,20,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.2,1
+250,MMLU,2.0,0,0.0,50,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+251,MMLU,2.0,0,0.0,80,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.8,1
+252,MMLU,2.0,0,0.0,20,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.2,1
+253,MMLU,2.0,1,1.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,0
+254,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+255,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+256,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+257,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+258,MMLU,2.0,0,0.0,20,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.2,1
+259,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+260,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+261,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+262,MMLU,2.0,1,1.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,0
+263,MMLU,3.0,0,0.0,50,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+264,MMLU,2.0,0,0.0,50,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+265,MMLU,2.0,1,1.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,0
+266,MMLU,2.0,0,0.0,50,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+267,MMLU,3.0,0,0.0,0,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.0,1
+268,MMLU,2.0,0,0.0,20,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.2,1
+269,MMLU,2.0,0,0.0,50,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+270,MMLU,3.0,1,1.0,0,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.0,0
+271,MMLU,1.0,0,0.0,20,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.2,1
+272,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+273,MMLU,1.0,1,1.0,0,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.0,0
+274,MMLU,2.0,0,0.0,80,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.8,1
+275,MMLU,2.0,0,0.0,50,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+276,MMLU,2.0,1,1.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,0
+277,MMLU,2.0,0,0.0,20,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.2,1
+278,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+279,MMLU,2.0,1,1.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,0
+280,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+281,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+282,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+283,MMLU,2.0,1,1.0,50,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,0
+284,MMLU,2.0,0,0.0,50,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+285,MMLU,2.0,1,1.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,0
+286,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+287,MMLU,2.0,0,0.0,10,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.1,1
+288,MMLU,2.0,0,0.0,50,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+289,MMLU,2.0,1,1.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,0
+290,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+291,MMLU,2.0,0,0.0,0,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.0,1
+292,MMLU,1.0,1,1.0,0,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.0,0
+293,MMLU,2.0,0,0.0,20,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.2,1
+294,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+295,MMLU,2.0,1,1.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,0
+296,MMLU,2.0,0,0.0,50,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+297,MMLU,3.0,0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,1.0,1
+298,MMLU,1.0,0,0.0,50,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,1
+299,MMLU,2.0,1,1.0,50,NO,eligible_provisional_deterministic_key_scoring,Stored labels match numeric option-key comparison for 100/100 rows; all first 100 appear to be abstract algebra.,0.5,0
+300,GSM8K,"To find out how much Janet makes at the farmers' market, we need to first calculate the number of eggs she sells. 
+
+She eats 3 eggs for breakfast and bakes 4 muffins, so she uses 7 eggs per day. 
+
+She lays 16 eggs per day, so she sells 16 - 7 = 9 eggs per day. 
+
+She sells each egg for $2, so she makes 9 x $2 = $18 per day at the farmers' market.",1,1.0,100,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,1.0,0
+301,GSM8K,"To find the total number of bolts, we need to calculate the amount of blue and white fiber.
+
+Blue fiber: 2 bolts
+White fiber: Half of 2 bolts = 1 bolt
+
+Total bolts: 2 (blue) + 1 (white) = 3 bolts",1,1.0,50,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.5,0
+302,GSM8K,"To find the profit, first calculate the new value of the house after repairs:
+
+Original price: $80,000
+Increase in value: 150% of $80,000 = 0.5 x $80,000 = $40,000
+New value: $80,000 + $40,000 = $120,000
+
+Then, subtract the cost of repairs and the original price:
+
+Profit = New value - (Cost of repairs + Original price)
+= $120,000 - ($50,000 + $80,000)
+= $120,000 - $130,000
+= -$10,000
+
+Since Josh lost $10,000, he did not make a profit.",0,0.0,20,NO,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.2,1
+303,GSM8K,"To find the total meters James runs a week, first calculate the total meters he runs in one session:
+
+3 sprints * 60 meters/sprint = 180 meters
+
+Since he runs 3 times a week, multiply the total meters by 3:
+
+180 meters/session * 3 sessions/week = 540 meters/week",1,1.0,100,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,1.0,0
+304,GSM8K,"To find the total amount of feed Wendi needs to give her chickens, we need to add the feed given in the morning and afternoon.
+
+Morning feed: 15 cups
+Afternoon feed: 25 cups
+Total feed so far: 15 + 25 = 40 cups
+
+Since Wendi gives the chickens three separate meals, we need to divide the total feed by 3 to find the amount of feed needed for the final meal.
+
+Final meal feed: 40 cups / 3 = 13.33 cups
+
+So, Wendi needs to give her chickens approximately 13.33 cups of feed in the final meal of the day.",0,0.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,1
+305,GSM8K,"To calculate the total cost, first find the cost of the glasses at full price and then the cost of the glasses at 60% of the price.
+
+Cost of 16 glasses at full price: 16 x $5 = $80
+Cost of 8 glasses at 60% of the price: 8 x $3 = $24
+Total cost: $80 + $24 = $104",0,0.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,1
+306,GSM8K,"To solve this problem, we need to find the number of sheep in Charleston and Toulouse.
+
+Since Charleston has 4 times as many sheep as Seattle, and Seattle has 20 sheep, Charleston has 4 x 20 = 80 sheep.
+
+Since Toulouse has twice as many sheep as Charleston, Toulouse has 2 x 80 = 160 sheep.
+
+Now, we can add the number of sheep in Seattle, Charleston, and Toulouse: 20 + 80 + 160 = 260.
+
+So, Toulouse, Charleston, and Seattle have 260 sheep together.",1,1.0,0,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.0,0
+307,GSM8K,"To calculate the load, we need to calculate the total time it takes to download the file.
+
+First, Carla downloads 2 GB/minute, so the total download time without the restart is:
+200 GB / 2 GB/minute = 100 minutes
+
+However, 40% of the way through the download, Windows forces a restart, which takes 20 minutes. This means Carla has to download 60% of the file before the restart, which is:
+200 GB x 0.6 = 120 GB
+
+The time it takes to download 120 GB is:
+120 GB / 2 GB/minute = 60 minutes
+
+So, Carla has already downloaded for 60 minutes before the restart. Now, she has to download the remaining 80 GB (200 GB - 120 GB) at the same rate of 2 GB/minute. The time it takes to download the remaining 80 GB is:
+80 GB / 2 GB/minute = 40 minutes
+
+The total time it takes to download the file is:
+60 minutes (before restart) + 20 minutes (restart) + 40 minutes (remaining download) = 120 minutes
+
+To calculate the load, we need to know the total time it takes to download the file and the number of users. Unfortunately, the question doesn't provide this information.",0,0.0,20,NO,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.2,1
+308,GSM8K,"To solve this problem, we need to calculate the distance John traveled in each segment of his trip.
+
+1. First, John drives for 3 hours at 60 mph:
+Distance = Speed x Time = 60 x 3 = 180 miles
+
+2. Then, he spends 2 hours in standstill traffic, so he doesn't move:
+Distance = 0 miles
+
+3. Next, he drives for 0.5 hours at 30 mph:
+Distance = Speed x Time = 30 x 0.5 = 15 miles
+
+4. Finally, he drives for 2.5 hours at 80 mph:
+Distance = Speed x Time = 80 x 2.5 = 200 miles
+
+Now, we need to find the total distance John traveled:
+Total Distance = 180 + 0 + 15 + 200 = 395 miles
+
+Since John is trying to get home, we need to subtract the distance he traveled from his original distance:
+Distance from home = Original distance - Total distance = 180 + 200 = 380 miles
+
+So, John is 380 miles from home at the end of those 4 hours.",0,0.0,20,NO,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.2,1
+309,GSM8K,"To calculate Eliza's earnings for this week, we need to calculate her earnings for the first 40 hours and the overtime hours.
+
+Earnings for the first 40 hours: 40 hours x $10/hour = $400
+
+Overtime hours: 45 hours - 40 hours = 5 hours
+Overtime rate: $10/hour x 1.2 = $12/hour
+Earnings for overtime hours: 5 hours x $12/hour = $60
+
+Total earnings for the week: $400 + $60 = $460",1,1.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,0
+310,GSM8K,"To find the total number of downloads, calculate the downloads for each month:
+
+Month 1: 60 downloads
+Month 2: 3 x 60 = 180 downloads
+Month 3: 180 - (30% of 180) = 180 - 54 = 126 downloads
+
+Total downloads: 60 + 180 + 126 = 366 downloads",1,1.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,0
+311,GSM8K,"To find the total cost, calculate the cost of each item and add them together:
+
+Donuts: 3 dozen x $68 = $204
+Mini cupcakes: 2 dozen x $80 = $160
+Mini cheesecakes: 6 dozen x $55 = $330
+
+Total cost: $204 + $160 + $330 = $694",1,1.0,0,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.0,0
+312,GSM8K,"To determine how many years it will take for Carlos to start earning money on the lemon tree, we need to calculate the net profit each year.
+
+Initial cost: $90
+Annual revenue: 7 lemons/year * $1.5/lemon = $10.50/year
+Annual cost: $3/year
+
+Net profit: $10.50 - $3 = $7.50/year
+
+Since the tree needs to break even, we need to find the year when the net profit is greater than $0.
+
+Year 1: Net profit = $7.50 - $90 = -$82.50 (loss)
+Year 2: Net profit = $7.50 - $3 = $4.50 (profit)
+
+It will take 2 years for Carlos to start earning money on the lemon tree.",0,0.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,1
+313,GSM8K,"To solve this problem, let's work backwards.
+
+Melanie has 5 vacuum cleaners left. She sold half of what was left at the orange house, so she must have had 10 vacuum cleaners at the orange house (5 x 2 = 10).
+
+At the orange house, she sold 2 more vacuum cleaners than at the green house. Since she sold a third of her vacuum cleaners at the green house, she must have sold 2/3 of what she had at the green house. Let's call the number of vacuum cleaners she had at the green house ""x"". Then, 2/3 of x is 2 more than the number she had at the orange house.
+
+Let's set up an equation:
+
+(2/3)x = 10 - 2
+(2/3)x = 8
+
+Multiply both sides by 3/2:
+
+x = 12
+
+So, Melanie had 12 vacuum cleaners at the green house. To find the total number of vacuum cleaners she started with, add the number she had at the green house to the number she had at the orange house:
+
+12 + 10 = 22
+
+Melanie started with 22 vacuum cleaners.",0,0.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,1
+314,GSM8K,"To find the percentage of students enrolled in hip-hop dance, we need to first find the number of students enrolled in each type of dance.
+
+20% of 20 students enrolled in contemporary dance, which is 0.2 x 20 = 4 students.
+
+The remaining students are 20 - 4 = 16.
+
+25% of the remaining 16 students enrolled in jazz dance, which is 0.25 x 16 = 4 students.
+
+The remaining students are 16 - 4 = 12.
+
+Since 12 students enrolled in hip-hop dance, we can find the percentage of students enrolled in hip-hop dance by dividing 12 by 20 and multiplying by 100:
+
+(12/20) x 100 = 60%
+
+Therefore, 60% of the entire students enrolled in hip-hop dance.",1,1.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,0
+315,GSM8K,"To calculate the profit, we need to calculate the future value of each option.
+
+Jewelry: $5,000 x 2.5% = $125 increase
+Future value: $5,000 + $125 = $5,125
+
+Electronic gadgets: $8,000 x 1.2% = $96 increase
+Future value: $8,000 + $96 = $8,096
+
+The merchant should choose the electronic gadgets option, as it will have a higher future value and therefore a higher profit. The profit would be:
+
+$8,096 - $5,000 = $3,096",0,0.0,80,NO,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,1
+316,GSM8K,"To solve this problem, we need to break it down into two parts: the first day and the second day.
+
+Day 1: Both trains travel westward for 80 miles.
+
+Day 2: Both trains travel northward for 150 miles.
+
+Since they traveled in the same direction on both days, we can add the distances traveled on each day to find the total distance covered by each train.
+
+Total distance covered by each train = 80 miles (westward) + 150 miles (northward) = 230 miles.
+
+So, each train covered a total distance of 230 miles in the two days.",1,1.0,0,NO,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.0,0
+317,GSM8K,"To find Jill's annual salary, we need to calculate her earnings from teaching and coaching separately, then add them together.
+
+Teaching: 50 weeks/year * 35 hours/week = 1750 hours/year
+Earnings from teaching: 1750 hours/year * $20/hour = $35,000/year
+
+Coaching: 50 weeks/year * 15 hours/week = 750 hours/year
+Earnings from coaching: 750 hours/year * $30/hour = $22,500/year
+
+Total annual salary: $35,000/year + $22,500/year = $57,500/year",1,1.0,0,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.0,0
+318,GSM8K,"To find the total number of eggs Claire will eat in 4 weeks, first calculate the total number of eggs she eats in one week:
+
+3 eggs/day * 7 days/week = 21 eggs/week
+
+Then, multiply the weekly total by 4:
+
+21 eggs/week * 4 weeks = 84 eggs
+
+Since there are 12 eggs in a dozen, divide the total number of eggs by 12:
+
+84 eggs / 12 = 7 dozen eggs
+
+So, Claire will eat 7 dozen eggs in 4 weeks.",0,0.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,1
+319,GSM8K,"To find the required speed, we need to calculate the total time Marissa has available and the time she has already spent.
+
+Total distance = 12 miles
+Total desired time = Total distance / Desired average speed = 12 miles / 4 mph = 3 hours
+
+Time spent so far = 2 hours (1 hour for the first 4 miles + 1 hour for the next 2 miles)
+
+Time available = Total desired time - Time spent so far = 3 hours - 2 hours = 1 hour
+
+Remaining distance = 12 miles - 6 miles = 6 miles
+
+Required speed = Remaining distance / Time available = 6 miles / 1 hour = 6 mph",1,1.0,50,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.5,0
+320,GSM8K,"To find the amount of water in the remaining 24 liters, we need to calculate the total amount of water in the original 10 liters of orange drink and the 15 liters of pineapple drink, and then subtract the spilled 1 liter of orange drink.
+
+For the orange drink: 2/3 of 10 liters = (2/3) * 10 = 20/3 liters = 6.67 liters (approximately)
+
+For the pineapple drink: 3/5 of 15 liters = (3/5) * 15 = 9 liters
+
+Total water in the original drinks: 6.67 + 9 = 15.67 liters
+
+Since 1 liter was spilled, we subtract it from the total water: 15.67 - 1 = 14.67 liters
+
+Now, we add the original 24 liters (10 liters of orange drink + 15 liters of pineapple drink) to the remaining water: 14.67 + 24 = 38.67 liters
+
+The amount of water in the remaining 24 liters is approximately 14.67 liters.",0,0.0,20,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.2,1
+321,GSM8K,"To find the answer, we need to know Samantha's birth year. Since Samantha is 31 now, we can subtract 31 from her current age to find her birth year: 31 - 31 = 0. This means Samantha is 31 years old now, so she was born in 0 (or 1, since you can't be born on a day, but we'll use 0 for simplicity).
+
+Raymond was born 6 years before Samantha, so Raymond was born in 0 - 6 = -6. Since you can't be born in a negative year, we'll use 4 as Raymond's birth year (4 - 6 = -2, and -2 is closer to 0 than -6).
+
+Raymond had a son at 23, so his son was born in 23. To find the difference between Raymond's son's birth year and Samantha's birth year, we subtract 4 (Raymond's birth year) from 0 (Samantha's birth year): 0 - 4 = -4. Since you can't be born in a negative year, we'll use 4 as the difference (4 years ago).
+
+However, we can also calculate the difference by subtracting 23 (Raymond's son's birth year) from 31 (Samantha's current age): 31 - 23 = 8. This means Raymond's son was born 8 years ago.",0,0.0,20,NO,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.2,1
+322,GSM8K,"To find the total number of DVDs sold, we need to calculate the number of DVDs sold to each group of customers and add them up.
+
+- The first 3 customers bought 1 DVD each, so they bought 3 DVDs.
+- The next 2 customers bought 2 DVDs each, so they bought 4 DVDs.
+- The last 3 customers bought 0 DVDs.
+
+Now, let's add up the number of DVDs sold: 3 + 4 + 0 = 7
+
+Billy sold 7 DVDs on Tuesday.",1,1.0,20,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.2,0
+323,GSM8K,"To find the answer, we need to calculate the total number of hours the candle burns.
+
+From 1:00 PM to 5:00 PM is 4 hours.
+
+Since the candle melts 2 centimeters every hour, it will melt 4 x 2 = 8 centimeters in 4 hours.
+
+So, the candle will be 8 centimeters shorter after burning from 1:00 PM to 5:00 PM.",0,0.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,1
+324,GSM8K,"To find the original price, let's call it x. Since Kyle got a 25% discount, he paid 75% of the original price. 
+
+75% of x = $19.50
+0.75x = $19.50
+x = $19.50 / 0.75
+x = $26
+
+The original price of the book was $26.",1,1.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,0
+325,GSM8K,"To find out how many boxes of pizza Marie ordered, we need to subtract the cost of the other items from the total amount she paid.
+
+Cost of chicken meal: $12
+Cost of 5 packs of milk: 5 x $3 = $15
+Cost of 4 apples: 4 x $1.50 = $6
+
+Total cost of other items: $12 + $15 + $6 = $33
+
+Now, subtract the total cost of other items from the total amount paid: $50 - $33 = $17
+
+Since each box of pizza costs $8.50, divide the remaining amount by the cost of each box:
+
+$17 ÷ $8.50 = 2
+
+Marie ordered 2 boxes of pizza.",1,1.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,0
+326,GSM8K,"To find the total amount spent, multiply the number of each item by its cost and add them together:
+
+3 pairs of shorts x $16.50 = $49.50
+3 pairs of pants x $22.50 = $67.50
+3 pairs of shoes x $42 = $126
+
+Total amount spent = $49.50 + $67.50 + $126 = $243",1,1.0,100,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,1.0,0
+327,GSM8K,"To find out how much Cynthia will spend on ice cream, we need to calculate the total number of servings she will consume in 60 days and then multiply it by the cost per carton.
+
+Since Cynthia eats 1 serving of ice cream per night, in 60 days, she will consume 60 servings.
+
+Each carton has 15 servings, so the number of cartons she will need is:
+60 servings / 15 servings per carton = 4 cartons
+
+The cost of each carton is $4.00, so the total cost will be:
+4 cartons x $4.00 per carton = $16.00",0,1.0,80,YES,eligible_confirmed_label_correction,Manually confirmed final answer and reasoning match reference; original label was 0.,0.8,0
+328,GSM8K,"To find the distance between the first and second stops, we need to find the distance traveled after the first stop and before the second stop.
+
+Distance traveled after the first stop = Total distance - Distance traveled before the first stop
+= 60 miles - 20 miles
+= 40 miles
+
+Distance before the second stop = Distance traveled after the first stop + Distance to the second stop
+= 40 miles + 15 miles
+= 55 miles
+
+Distance between the first and second stops = Distance traveled after the first stop
+= 40 miles",0,0.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,1
+329,GSM8K,"To solve this problem, let's start by finding the cost of the second pair of heels. Since it costs twice as much as the first pair, which is $33, the second pair costs 2 x $33 = $66.
+
+The total cost of the two pairs of heels is $33 + $66 = $99.
+
+Since the boots cost $5 less than the two pairs of heels, the cost of the boots is $99 - $5 = $94.",0,0.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,1
+330,GSM8K,"To solve this problem, we can start by representing Darrell's and Allen's current ages as 7x and 11x, respectively, where x is a constant multiplier.
+
+We know that their total age now is 162, so we can set up the equation:
+
+7x + 11x = 162
+
+Combine like terms:
+
+18x = 162
+
+Divide both sides by 18:
+
+x = 9
+
+Now that we have the value of x, we can find Allen's current age:
+
+11x = 11(9) = 99
+
+To find Allen's age 10 years from now, we add 10 to his current age:
+
+99 + 10 = 109
+
+Therefore, Allen's age 10 years from now is 109.",1,1.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,0
+331,GSM8K,"To find the average guess, we need to calculate the total number of guesses and divide by 3.
+
+Guess 1: 80
+Guess 2: 80 + 20 = 100
+Guess 3: 80 + (25% of 80) = 80 + 20 = 100
+
+Total guesses: 80 + 100 + 100 = 280
+Average guess: 280 / 3 = 93.33",0,0.0,0,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.0,1
+332,GSM8K,"To find the total hours spent taking care of dogs per day, multiply the number of dogs by the time each dog takes:
+
+10 dogs * 0.5 hours/dog = 5 hours/day
+
+To find the total hours spent taking care of dogs per week, multiply the daily hours by 7:
+
+5 hours/day * 7 days/week = 35 hours/week",1,1.0,20,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.2,0
+333,GSM8K,"Let's denote the number of silver coins as x. Since there are 30 more gold coins than silver coins, the number of gold coins is x + 30.
+
+We know that the total number of coins is 110, so we can set up the equation:
+
+x + (x + 30) = 110
+
+Combine like terms:
+
+2x + 30 = 110
+
+Subtract 30 from both sides:
+
+2x = 80
+
+Divide both sides by 2:
+
+x = 40
+
+Since x represents the number of silver coins, and there are 30 more gold coins, the number of gold coins is:
+
+x + 30 = 40 + 30 = 70
+
+Gretchen has 70 gold coins.",1,1.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,0
+334,GSM8K,"To solve this problem, we need to follow the steps:
+
+1. Find half of Raymond's jewels: 40 / 2 = 20
+2. Add 5 to find Aaron's jewels: 20 + 5 = 25
+3. Subtract 2 to find Siobhan's jewels: 25 - 2 = 23
+
+Siobhan has 23 jewels.",1,1.0,100,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,1.0,0
+335,GSM8K,"To find the total points scored, first calculate the points scored in the second 20 minutes:
+
+25% of 4 points = 0.25 * 4 = 1 point
+
+Points scored in the second 20 minutes = 4 + 1 = 5 points
+
+Total points scored = Points scored in the first 20 minutes + Points scored in the second 20 minutes
+= 4 + 5
+= 9 points",1,1.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,0
+336,GSM8K,"To find out how much Terry spends on yogurt over 30 days, we need to calculate the total number of yogurts he eats in 30 days and then multiply it by the cost per yogurt.
+
+Terry eats 2 yogurts a day, so in 30 days, he eats:
+2 yogurts/day x 30 days = 60 yogurts
+
+The sale price is 4 yogurts for $5.00, so the cost per yogurt is:
+$5.00 ÷ 4 yogurts = $1.25 per yogurt
+
+Now, multiply the total number of yogurts by the cost per yogurt:
+60 yogurts x $1.25 per yogurt = $75.00
+
+Terry spends $75.00 on yogurt over 30 days.",0,0.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,1
+337,GSM8K,"To find out how many lego sets John still has, we need to calculate the total amount of money he made from selling the lego sets and then subtract the cost of the video games and the remaining money.
+
+John sold 13 lego sets for $15 each, so he made 13 x $15 = $195.
+
+He bought 8 video games for $20 each, so he spent 8 x $20 = $160.
+
+He also had $5 left.
+
+The total amount of money he spent is $160 + $5 = $165.
+
+To find out how much money he has left, we subtract the total amount of money he spent from the total amount of money he made: $195 - $165 = $30.
+
+Since he has $30 left, we can set up an equation to find out how many lego sets he still has:
+
+Number of lego sets x $15 = $30
+
+To solve for the number of lego sets, we divide both sides by $15:
+
+Number of lego sets = $30 / $15
+Number of lego sets = 2
+
+Therefore, John still has 2 lego sets.",1,1.0,20,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.2,0
+338,GSM8K,"To find John's running speed, we need to calculate his total weekly running time and then divide it by the total distance he runs.
+
+Total weekly running time:
+Day 1: 3 hours
+Days 2-3: 2 hours x 2 = 4 hours
+Total weekly running time: 3 + 4 = 7 hours
+
+Weekly running distance: 60 miles
+
+To find his running speed, we need more information, such as the total number of days he runs or the total number of hours he runs per day. However, we can calculate his average running speed per hour:
+
+Average running speed: 60 miles / 7 hours = 8.57 miles per hour",0,0.0,20,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.2,1
+339,GSM8K,"To solve this problem, we need to find Dana's running and walking speeds first.
+
+Since Dana can skip at 3 miles per hour, and her skipping speed is half as fast as her running speed, her running speed is 3 x 2 = 6 miles per hour.
+
+Her walking speed is 6 / 4 = 1.5 miles per hour.
+
+Now, let's calculate the time she spends running and walking:
+
+Time running = 6 hours x 1/3 = 2 hours
+Time walking = 6 hours x 2/3 = 4 hours
+
+Now, we can calculate the distance she travels running and walking:
+
+Distance running = Speed x Time = 6 miles/hour x 2 hours = 12 miles
+Distance walking = Speed x Time = 1.5 miles/hour x 4 hours = 6 miles
+
+Total distance = Distance running + Distance walking = 12 miles + 6 miles = 18 miles",1,1.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,0
+340,GSM8K,"To solve this problem, we need to find the age of Brandon's iPhone.
+
+We know that Suzy's iPhone is 1 year old.
+
+Since Ben's iPhone is two times older than Suzy's iPhone, Ben's iPhone is 2 x 1 = 2 years old.
+
+Since Brandon's iPhone is four times as old as Ben's iPhone, Brandon's iPhone is 4 x 2 = 8 years old.
+
+Therefore, Brandon's iPhone is 8 years old.",1,1.0,100,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,1.0,0
+341,GSM8K,"To solve this problem, we need to find the maximum distance Polly can throw the javelin while holding the sapphire gemstone.
+
+Let's denote the distance Polly can throw the javelin while holding the gemstone as x. Since she can throw the javelin three times farther than when not holding the gemstone, we can set up the equation:
+
+x = 3(400)
+
+x = 1200
+
+This means Polly can throw the javelin 1200 feet while holding the gemstone.
+
+Since the dragon's flames have a range of 1000 feet, Polly can stand 200 feet (1200 - 1000) outside of the reach of the dragon's flames and still hit the dragon with the gold javelin.",0,0.0,50,NO,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.5,1
+342,GSM8K,"To find the number of pieces taken by the guests, we need to subtract the remaining pieces from the total number of pieces.
+
+Total number of pieces = 5 pies x 8 pieces/pie = 40 pieces
+Remaining pieces = 14 pieces
+Pieces taken by guests = Total pieces - Remaining pieces
+= 40 pieces - 14 pieces
+= 26 pieces",1,1.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,0
+343,GSM8K,"To find out how many grams you can eat, we need to calculate the remaining calories you can consume and then convert that to grams.
+
+Daily calorie target: 2000
+Calories already consumed: 1800
+Remaining calories: 2000 - 1800 = 200
+
+Since each serving has 250 calories, we can calculate the number of servings you can have:
+
+200 calories / 250 calories per serving = 0.8 servings
+
+Since each serving is 5g, we can calculate the total grams you can eat:
+
+0.8 servings x 5g per serving = 4g
+
+Therefore, you can eat 4g.",0,0.0,20,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.2,1
+344,GSM8K,"To find Charlie's net profit, we need to calculate the total revenue and subtract the total cost.
+
+Total revenue: 20 candles x $2.00/candle = $40.00
+Total cost: 20 candles x $10.00/candle (including wicks) = $200.00
+Total profit: $40.00 - $200.00 = -$160.00
+
+Since Charlie's total cost is more than his total revenue, he is actually losing money. His net profit is -$160.00.",0,0.0,0,NO,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.0,1
+345,GSM8K,"To calculate the total number of hours Meredith spent writing articles, we need to calculate the number of hours she spent on each day and add them together.
+
+On Monday, she wrote 5 articles, and each article takes 4 hours to write, so she spent 5 x 4 = 20 hours.
+
+On Tuesday, she wrote 2/5 times more articles than on Monday. 2/5 of 5 is 2, so she wrote 5 + 2 = 7 articles. Since each article takes 4 hours to write, she spent 7 x 4 = 28 hours.
+
+On Wednesday, she wrote twice the number of articles she wrote on Tuesday, which is 2 x 7 = 14 articles. Since each article takes 4 hours to write, she spent 14 x 4 = 56 hours.
+
+The total number of hours she spent writing articles is 20 + 28 + 56 = 104 hours.",1,1.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,0
+346,GSM8K,"To solve this problem, let's break it down step by step:
+
+1. Candice initially put 80 Post-it notes in her purse.
+2. She purchased a package of Post-it notes, but we don't know how many.
+3. At work, she used 220 Post-it notes on cups of coffee.
+4. After using 220 Post-it notes, she had 23 Post-it notes remaining.
+
+Let's denote the number of Post-it notes in the package as x. We can set up an equation based on the information:
+
+80 (initial Post-it notes) + x (Post-it notes in package) - 220 (used Post-it notes) = 23 (remaining Post-it notes)
+
+Simplifying the equation:
+
+80 + x - 220 = 23
+
+Combine like terms:
+
+-140 + x = 23
+
+Add 140 to both sides:
+
+x = 163
+
+So, the package of Post-it notes Candice purchased contained 163 Post-it notes.",1,1.0,90,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.9,0
+347,GSM8K,"To find the total amount spent on ties, we need to calculate the number of blue ties and red ties, and then their respective costs.
+
+Since John spent $200 on blue ties that cost $40 each, he bought:
+
+$200 / $40 = 5 blue ties
+
+Since John buys twice as many red ties as blue ties, he bought:
+
+2 x 5 = 10 red ties
+
+Red ties cost 50% more than blue ties, so they cost:
+
+$40 x 1.5 = $60 each
+
+The total cost of red ties is:
+
+10 x $60 = $600
+
+The total amount spent on ties is:
+
+$200 (blue ties) + $600 (red ties) = $800",1,1.0,20,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.2,0
+348,GSM8K,"To find the number of pieces, we need to convert the length of the wire from feet to inches, since the pieces are 6 inches long.
+
+1 foot = 12 inches
+4 feet = 4 x 12 = 48 inches
+
+Now, divide the total length of the wire (48 inches) by the length of each piece (6 inches):
+
+48 ÷ 6 = 8
+
+Tracy obtained 8 pieces of wire.",1,1.0,100,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,1.0,0
+349,GSM8K,"To find the total number of unoccupied units, we need to first find the total number of units in the building. Since there are 15 floors with 8 units each, the total number of units is:
+
+15 x 8 = 120 units
+
+Since 3/4 of the building is occupied, the number of occupied units is:
+
+120 x 3/4 = 90 units
+
+To find the number of unoccupied units, subtract the number of occupied units from the total:
+
+120 - 90 = 30 units
+
+Therefore, there are 30 unoccupied units in the building.",1,1.0,60,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.6,0
+350,GSM8K,"To find out how much Lloyd makes per week, we need to calculate the daily revenue and then multiply it by 7.
+
+Daily revenue: 252 eggs / 12 eggs per dozen = 21 dozen eggs
+Daily revenue: 21 dozen eggs * $2 per dozen = $42
+
+Weekly revenue: $42 per day * 7 days = $294",1,1.0,100,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,1.0,0
+351,GSM8K,"To find the time it takes Tom to get back, we need to find the distance he traveled from 1 to 4 PM and then divide it by his return speed.
+
+Since Tom is sailing from 1 to 4 PM, he is traveling for 3 hours at 10 mph. 
+
+Distance = Speed x Time
+Distance = 10 mph x 3 hours
+Distance = 30 miles
+
+Now, we can find the time it takes Tom to get back:
+
+Time = Distance / Speed
+Time = 30 miles / 6 mph
+Time = 5 hours
+
+So, it takes Tom 5 hours to get back.",1,1.0,20,NO,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.2,0
+352,GSM8K,"To solve this problem, we need to first calculate the weight of the comic books removed and then subtract that from the total weight to be removed.
+
+Weight of 30 comic books = 30 x 1/4 = 7.5 pounds
+
+Remaining weight to be removed = 15 - 7.5 = 7.5 pounds
+
+Since each toy weighs 1/2 pound, we can calculate the number of toys to be removed as follows:
+
+Number of toys to be removed = Remaining weight to be removed / Weight of each toy
+= 7.5 / 0.5
+= 15
+
+Therefore, Uriah needs to remove 15 toys from his book bag.",1,1.0,100,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,1.0,0
+353,GSM8K,"To find the day with higher revenue, we need to calculate the total revenue for each day.
+
+On Thursday, the mechanic repaired 6 truck tires and 4 car tires. The total revenue is:
+
+6 x $60 (truck tires) = $360
+4 x $40 (car tires) = $160
+Total revenue = $360 + $160 = $520
+
+On Friday, the mechanic repaired 12 car tires and 0 truck tires. The total revenue is:
+
+12 x $40 (car tires) = $480
+Total revenue = $480
+
+Since $520 > $480, the mechanic earned more revenue on Thursday. The difference is:
+
+$520 - $480 = $40
+
+The mechanic earned $40 more on Thursday.",1,1.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,0
+354,GSM8K,"To find the total number of kittens, first, calculate the number of kittens Patchy had: 7 adopted kittens * 3 = 21 kittens.
+
+Then, add the number of kittens Trixie had: 21 + 12 = 33 kittens.
+
+Finally, add the 7 adopted kittens to the total: 33 + 7 = 40 kittens.
+
+The Doubtfire family now has 40 kittens.",1,1.0,0,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.0,0
+355,GSM8K,"To find the number of bags Jean can fill, we need to subtract the lollipops Jean ate from the total number of lollipops, then divide by 2.
+
+30 (initial lollipops) - 2 (eaten lollipops) = 28
+28 ÷ 2 = 14
+
+Jean can fill 14 bags.",1,1.0,50,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.5,0
+356,GSM8K,"To find out how many times Peter can go to the movies, we need to divide the amount of money he has ($42) by the total cost of a movie ticket and popcorn ($14).
+
+$42 ÷ $14 = 3
+
+So, Peter can go to the movies 3 times.",1,1.0,20,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.2,0
+357,GSM8K,"To find the maximum number of boxes that can be loaded onto the truck, we need to subtract the combined weight of the driver and the empty truck from the bridge's weight limit, and then divide by the weight of each box.
+
+Weight limit: 5000 pounds
+Combined weight of driver and empty truck: 3755 pounds
+Weight of each box: 15 pounds
+
+Maximum weight available for boxes: 5000 - 3755 = 1245 pounds
+
+Maximum number of boxes: 1245 / 15 = 83
+
+So, the maximum number of boxes that can be loaded onto the truck is 83.",1,1.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,0
+358,GSM8K,"To find the final price, first calculate the 25% fee:
+
+$40.00 x 0.25 = $10.00
+
+Add the fee to the original bill:
+
+$40.00 + $10.00 = $50.00
+
+Add the delivery fee:
+
+$50.00 + $3.00 = $53.00
+
+Add the tip:
+
+$53.00 + $4.00 = $57.00
+
+The final price of Stephen's groceries is $57.00.",0,1.0,100,YES,eligible_confirmed_label_correction,Manually confirmed final answer and reasoning match reference; original label was 0.,1.0,0
+359,GSM8K,"To find the total number of raspberries, calculate the number of fruit in the clusters and add the individual fruit.
+
+6 clusters x 20 fruit/cluster = 120 fruit
+120 fruit + 67 individual fruit = 187 fruit
+
+There are 187 raspberries total.",1,1.0,100,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,1.0,0
+360,GSM8K,"To find the number of good oranges, we need to first find the total number of oranges that are not good.
+
+1 bad orange
+20% unripe = 0.2 x 25 = 5 oranges
+2 sour oranges
+
+Total oranges that are not good = 1 + 5 + 2 = 8
+
+Number of good oranges = Total oranges - Oranges that are not good
+= 25 - 8
+= 17",1,1.0,20,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.2,0
+361,GSM8K,"To find the total amount Janet paid, calculate the cost of the brooch as follows:
+
+1. Material cost: $500
+2. Construction cost: $800
+3. Insurance cost: 10% of ($500 + $800) = 10% of $1,300 = $130
+
+Total amount paid: $500 + $800 + $130 = $1,430",1,1.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,0
+362,GSM8K,"To calculate Marcy's annual pension after 30 years, we need to calculate the pension for the first 20 years and the remaining 10 years separately.
+
+For the first 20 years, her annual pension is $50,000.
+
+For the remaining 10 years, she becomes entitled to 5% of the value of the pension per year. Since the pension is $50,000, 5% of that is $2,500. So, her annual pension for the remaining 10 years is $2,500.
+
+To find the total annual pension, we add the two amounts together: $50,000 + $2,500 = $52,500.",0,0.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,1
+363,GSM8K,"To calculate the total amount Aleena paid, we need to calculate the amount she paid for the first half of the year and the amount she paid for the second half of the year.
+
+For the first half of the year (6 months), the amount she paid is:
+$140 x 6 = $840
+
+For the second half of the year (6 months), the amount she paid is:
+$140 x 0.9 (10% less) = $126
+$126 x 6 = $756
+
+Total amount paid for the year:
+$840 + $756 = $1596",1,1.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,0
+364,GSM8K,"To find out how many miles Sophia can drive on a single tank of gas, we need to calculate the total distance she can travel on 12 gallons of gas.
+
+Since she has already traveled 100 miles, we need to find out how many miles she can travel on the remaining gas in the tank.
+
+First, let's find out how many gallons of gas are left in the tank:
+
+12 gallons (total capacity) - 4 gallons (gas used) = 8 gallons
+
+Now, we can calculate the total distance she can travel on 8 gallons of gas:
+
+Distance = Gallons x Miles per Gallon
+Since we don't know the miles per gallon, we can use the information that she traveled 100 miles on 4 gallons of gas to find the miles per gallon.
+
+Miles per Gallon = Total Distance / Total Gallons
+Miles per Gallon = 100 miles / 4 gallons
+Miles per Gallon = 25 miles per gallon
+
+Now, we can calculate the total distance she can travel on 8 gallons of gas:
+
+Distance = 8 gallons x 25 miles per gallon
+Distance = 200 miles
+
+Since Sophia has already traveled 100 miles, she can drive an additional:
+
+200 miles - 100 miles = 100 miles
+
+So, Sophia can drive an additional 100 miles on the remaining gas in the tank.",0,0.0,60,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.6,1
+365,GSM8K,"To find the total hours spent on TV and reading, we need to calculate the hours spent each time and multiply by the number of times it happens per week, then multiply by the number of weeks.
+
+Jim spends 2 hours watching TV and 1 hour reading (half of 2) each time. 
+
+Total hours per week: 2 + 1 = 3 hours
+Total hours per week: 3 * 4 weeks = 12 hours
+
+The answer is 12 hours.",0,0.0,20,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.2,1
+366,GSM8K,"To find the total number of people sent by the schools, we need to calculate the number of players, coaches, and teams.
+
+Each school has 2 teams (girls' and boys') with 5 players each, so that's 2 x 5 = 10 players per school.
+
+There are 4 schools, so the total number of players is 10 x 4 = 40 players.
+
+Each school has 1 coach, so there are 4 coaches in total.
+
+There are 2 teams per school, so there are 4 x 2 = 8 teams in total.
+
+Adding up the players, coaches, and teams, we get: 40 players + 4 coaches + 8 teams = 52 people.
+
+Therefore, all of the schools have sent a total of 52 people.",0,0.0,0,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.0,1
+367,GSM8K,"To find the total number of gems, we need to calculate the number of each type of gemstone.
+
+1. Diamonds: 175
+2. Rubies: 175 - 35 = 140
+3. Emeralds: 140 x 2 = 280
+
+Total number of gems: 175 + 140 + 280 = 595",1,1.0,20,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.2,0
+368,GSM8K,"To find the number of teachers, we need to first find the total number of students. Since there are twice as many boys as girls, and there are 60 girls, there are 2 x 60 = 120 boys.
+
+Total number of students = 60 (girls) + 120 (boys) = 180
+
+Since there are 5 students to every teacher, we can divide the total number of students by 5 to find the number of teachers:
+
+180 students / 5 students per teacher = 36 teachers",1,1.0,20,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.2,0
+369,GSM8K,"To find out how much money Bailey started with, we need to subtract the total amount of her weekly allowance from the total amount of money she has at the end of 8 weeks.
+
+Weekly allowance: $5 x 8 weeks = $40
+Total money at the end of 8 weeks: $100
+Initial amount of money: $100 - $40 = $60
+
+Bailey started with $60.",1,1.0,100,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,1.0,0
+370,GSM8K,"To calculate Judy's weekly earnings, we need to calculate the total number of classes she teaches in a week and multiply it by the number of students in each class and the charge per student.
+
+Weekdays: 5 classes/day * 5 days = 25 classes
+Saturday: 8 classes
+Total classes in a week: 25 + 8 = 33 classes
+
+Each class has 15 students, so total students in a week: 33 classes * 15 students/class = 495 students
+
+Judy charges $15.00 per student, so her weekly earnings: 495 students * $15.00/student = $7,425.00",0,1.0,100,YES,eligible_confirmed_label_correction,Manually confirmed final answer and reasoning match reference; original label was 0.,1.0,0
+371,GSM8K,"To find the total number of instructions, first, calculate the number of instructions in the second recipe, which is twice as many as the first recipe. 
+
+The first recipe has 20 instructions. 
+The second recipe has 2 x 20 = 40 instructions.
+
+Now, add the instructions from both recipes: 
+20 (first recipe) + 40 (second recipe) = 60 instructions.
+
+Kelian has to read 60 instructions to prepare the two dishes.",1,1.0,0,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.0,0
+372,GSM8K,"To find the total amount of money Tommy raised, we need to calculate the revenue from brownies and cheesecakes separately and then add them together.
+
+Revenue from brownies: 43 slices * $3/slice = $129
+Revenue from cheesecakes: 23 slices * $4/slice = $92
+
+Total revenue: $129 + $92 = $221
+
+Tommy raised $221.",1,1.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,0
+373,GSM8K,"To calculate the monthly payment, we need to calculate the total cost of the cell phones and the interest.
+
+Total cost of cell phones = 5 x $150 = $750
+Interest per unit = 2% of $150 = $3
+Total interest = 5 x $3 = $15
+
+Total amount to be paid = $750 + $15 = $765
+
+Monthly payment = Total amount / 3 months = $765 / 3 = $255",1,1.0,80,NO,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,0
+374,GSM8K,"To find the total amount Artie will make, we need to calculate the revenue from each type of flower and add them together.
+
+1. Marigolds: 12 pots x $2.74 = $32.88
+   Rounded to the nearest dollar: $33
+
+2. Petunias: 9 pots x $1.87 = $16.83
+   Rounded to the nearest dollar: $17
+
+3. Begonias: 17 pots x $2.12 = $36.04
+   Rounded to the nearest dollar: $36
+
+Total revenue: $33 + $17 + $36 = $86",0,0.0,20,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.2,1
+375,GSM8K,"To find the average square footage of a level, we need to find the total square footage of all levels and divide it by the number of levels.
+
+The top level has a square footage of 16.
+The second level has half the square footage of the top level, so it has 16/2 = 8.
+The third level has half the square footage of the second level, so it has 8/2 = 4.
+The fourth level has half the square footage of the third level, so it has 4/2 = 2.
+
+Total square footage = 16 + 8 + 4 + 2 = 30
+
+Number of levels = 4
+
+Average square footage = Total square footage / Number of levels
+= 30 / 4
+= 7.5
+
+The average square footage of a level is 7.5.",0,0.0,50,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.5,1
+376,GSM8K,"To find the number of bags of dog food Cecilia will use in the first year, we need to calculate the amount of food used in the first 180 days and the amount used in the remaining 365 days (1 year - 180 days).
+
+For the first 180 days, Cecilia will feed the puppy 1 cup of dog food per day. So, the total amount of food used in the first 180 days is:
+
+1 cup/day x 180 days = 180 cups
+
+For the remaining 365 days, Cecilia will feed the puppy 2 cups of dog food per day. So, the total amount of food used in the remaining 365 days is:
+
+2 cups/day x 365 days = 730 cups
+
+Total amount of food used in the first year is:
+
+180 cups + 730 cups = 910 cups
+
+Since one bag of dog food contains 110 cups, the number of bags Cecilia will use in the first year is:
+
+910 cups / 110 cups/bag = 8.27 bags
+
+Since you can't buy a fraction of a bag, Cecilia will need to buy 9 bags of dog food in the first year.",0,0.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,1
+377,GSM8K,"To solve this problem, we need to find out how much laundry David does, then calculate the difference between Raymond and David's laundry.
+
+Since Sarah does 4 times as much laundry as David, and Sarah does 400 pounds, we can divide 400 by 4 to find out how much David does:
+
+400 / 4 = 100 pounds
+
+Since Raymond does half as much laundry as Sarah, we can divide Sarah's laundry by 2 to find out how much Raymond does:
+
+400 / 2 = 200 pounds
+
+Now, we can find the difference between Raymond and David's laundry:
+
+200 (Raymond) - 100 (David) = 100 pounds
+
+The difference in the amount of laundry Raymond and David do is 100 pounds.",1,1.0,50,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.5,0
+378,GSM8K,"To find the better price, we need to calculate the cost per flower for each package.
+
+Package of 3: $2.50 / 3 = $0.83 per flower
+Package of 2: $1 / 2 = $0.50 per flower
+
+Since $0.50 per flower is cheaper, Vincent should buy 18 flowers in packages of 2.
+
+Cost of 18 flowers in packages of 2: 18 / 2 = 9 packages x $1 = $9
+
+Cost of 18 flowers in packages of 3: 18 / 3 = 6 packages x $2.50 = $15
+
+Vincent saves $15 - $9 = $6 by buying 18 flowers at the better price.",0,0.0,20,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.2,1
+379,GSM8K,"To find the discounted price, calculate 30% of the original price and subtract it from the original price.
+
+Original price: $100
+Discount: 30% of $100 = 0.30 x $100 = $30
+Discounted price: $100 - $30 = $70
+
+The grooming cost is $70.",1,1.0,100,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,1.0,0
+380,GSM8K,"To find the amount of water left, first calculate the total amount of water the two girls got:
+
+2 x 1/6 = 1/3
+
+Now, add the amount the boy got:
+
+1/3 + 6 = 1/3 + 18/3 = 19/3
+
+Now, subtract the total amount from the initial 24 liters:
+
+24 - 19/3 = 24 - 6.33 = 17.67
+
+So, approximately 17.67 liters of water were left.",0,0.0,20,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.2,1
+381,GSM8K,"To find out how many stickers Charlie has left, we need to calculate the total number of stickers he received and subtract the number of stickers he gave away and used.
+
+Charlie received: 21 (from the store) + 23 (for his birthday) = 44 stickers
+
+Charlie gave away: 9 stickers
+
+Charlie used: 28 stickers
+
+Total stickers used or given away: 9 + 28 = 37 stickers
+
+Now, subtract the total stickers used or given away from the total stickers Charlie received:
+
+44 - 37 = 7 stickers
+
+Charlie has 7 stickers left.",0,0.0,20,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.2,1
+382,GSM8K,"To find Alex's weight, multiply Grace's weight by 4 and subtract 2: 4 x 125 = 500, 500 - 2 = 498. 
+
+Now, add their weights: 125 + 498 = 623.",1,1.0,0,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.0,0
+383,GSM8K,"To find the total number of thorns, first, find the total number of roses: 3 bushes * 25 roses/bush = 75 roses.
+
+Then, multiply the total number of roses by the number of thorns per rose: 75 roses * 8 thorns/rose = 600 thorns.",1,1.0,0,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.0,0
+384,GSM8K,"Let's say the team lost x games. Since they won 8 more than they lost, they won x + 8 games. The total number of games played is 22, so we can set up the equation:
+
+x + (x + 8) = 22
+
+Combine like terms:
+
+2x + 8 = 22
+
+Subtract 8 from both sides:
+
+2x = 14
+
+Divide both sides by 2:
+
+x = 7
+
+So, the team lost 7 games. Since they won 8 more than they lost, they won:
+
+7 + 8 = 15
+
+The team won 15 games.",1,1.0,20,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.2,0
+385,GSM8K,"To find the total number of quilt blocks, we need to calculate the number of blocks from each year of vacations.
+
+Gene has been vacationing since he was 23 and is now 34, so he has been on 34 - 23 = 11 years of vacations.
+
+Since he goes on 4 vacations a year, he has 11 x 4 = 44 blocks.
+
+However, this is the number of blocks from each year, not the total number of blocks. Since each block is from a different year, we can simply multiply the number of years by the number of blocks per year:
+
+11 years x 4 blocks/year = 44 blocks
+
+But we also need to consider that he has one block from each vacation, and he goes on 4 vacations a year. So, the total number of blocks is:
+
+11 years x 4 blocks/year = 44 blocks
+
+Since he has one block from each vacation, and he goes on 4 vacations a year, the total number of blocks is:
+
+44 blocks",1,1.0,20,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.2,0
+386,GSM8K,"To find the total number of times the alarm rang, we need to calculate the duration of each ring and add them up.
+
+1. The first time it rang 4 times.
+2. The second time it rang 3 times as long as the first time, so it rang 4 x 3 = 12 times.
+3. The third time it rang for half as long as the second time, so it rang 12 / 2 = 6 times.
+
+Now, let's add up the total number of times the alarm rang:
+
+4 (first time) + 12 (second time) + 6 (third time) = 22
+
+The alarm rang a total of 22 times.",1,1.0,20,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.2,0
+387,GSM8K,"To calculate Sylvie's annual salary after three more years of service, we need to calculate her salary after 5 years, 8 years, and 11 years of service.
+
+Year 5: $600 x 1.10 = $660
+Year 6: $660 x 1.10 = $726
+Year 7: $726 x 1.10 = $798.60
+Year 8: $798.60 x 1.10 = $873.66
+Year 9: $873.66 x 1.10 = $962.18
+Year 10: $962.18 x 1.10 = $1051.80
+Year 11: $1051.80 x 1.10 = $1155.18
+
+So, after three more years of service, Sylvie's annual salary will be $1155.18.",0,0.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,1
+388,GSM8K,"To solve this problem, let's say Harald's record sold x copies. Since Marilyn's record sold 10 times as many copies as Harald's, Marilyn's record sold 10x copies.
+
+The total number of copies sold is 88,000, so we can set up the equation:
+
+x + 10x = 88,000
+
+Combine like terms:
+
+11x = 88,000
+
+Divide both sides by 11:
+
+x = 8,000
+
+So Harald sold 8,000 copies.",1,1.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,0
+389,GSM8K,"To find the total cost, first calculate the number of gift bags needed:
+
+16 friends x 0.75 gift bags per friend = 12 gift bags
+
+Since 1/4 of attendees don't show up, 16 x 0.25 = 4 guests won't attend. So, 16 - 4 = 12 guests will receive a gift bag.
+
+Now, calculate the total cost:
+
+12 gift bags x $2 per gift bag = $24
+
+Christina will spend $24 on gift bags.",1,1.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,0
+390,GSM8K,"To determine the total amount of potato salad needed, calculate the amount for adults and children separately.
+
+Adults: 20 adults * 10 lbs/adult = 200 lbs
+Children: 5 children * 5 lbs/child (half of 10 lbs) = 25 lbs
+
+Total amount needed: 200 lbs + 25 lbs = 225 lbs",1,1.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,0
+391,GSM8K,"To solve this problem, we need to find the number of pets each person has.
+
+Cindy has 4 pets.
+Marcia has 2 more pets than Cindy, so Marcia has 4 + 2 = 6 pets.
+Jan has 3 times the number of pets as Marcia, so Jan has 3 x 6 = 18 pets.
+
+The total number of pets is 4 + 6 + 18 = 28.",1,1.0,50,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.5,0
+392,GSM8K,"To solve this, let's break it down step by step:
+
+1. James is 10 years old and 1 year younger than Corey, so Corey is 10 + 1 = 11 years old.
+2. Amy is 2 years younger than Corey, so Amy is 11 - 2 = 9 years old.
+3. Amy is 5 years older than Jackson, so Jackson is 9 - 5 = 4 years old.
+
+Therefore, Jackson is 4 years old.",1,1.0,100,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,1.0,0
+393,GSM8K,"To solve this problem, let's first find Gerald's original time. Since Lee runs 2 seconds faster than Gerald, we can set up an equation:
+
+Lee's time = Gerald's time + 2
+
+38 = Gerald's time + 2
+
+Gerald's time = 38 - 2
+Gerald's time = 36
+
+Now, we know Gerald's original time was 36 seconds. His speed improved by 10%, so we can calculate his new time:
+
+New time = Original time / (1 + 0.10)
+= 36 / 1.10
+= 32.73 seconds
+
+So, Gerald can run the 400-meter hurdles in approximately 32.73 seconds with his improved diet.",0,0.0,60,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.6,1
+394,GSM8K,"To solve this problem, we need to find the number of cats and then add the number of dogs, rabbits, and cats.
+
+Since there are 2 cats for every dog, and there are 60 dogs, the number of cats is 2 x 60 = 120.
+
+The number of rabbits is 12 less than the combined number of dogs and cats, so it's 120 + 60 - 12 = 168.
+
+The total number of pets is 60 (dogs) + 120 (cats) + 168 (rabbits) = 348.",1,1.0,80,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.8,0
+395,GSM8K,"To find the number of girls not in the girl scout, we need to first find the total number of girls.
+
+Total students = 200
+Boys = 2/5 * 200 = 80
+Girls = 200 - 80 = 120
+
+Girls in the girl scout = 2/3 * 120 = 80
+Girls not in the girl scout = 120 - 80 = 40
+
+Answer: 40",1,1.0,60,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.6,0
+396,GSM8K,"To find the difference in hours slept, first calculate James' sleep hours:
+
+2/3 * 9 hours = 6 hours
+
+Now, subtract James' sleep hours from Harry's sleep hours:
+
+9 hours - 6 hours = 3 hours
+
+Harry slept 3 more hours than James.",1,1.0,100,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,1.0,0
+397,GSM8K,"To solve this problem, we need to find the total volume of tomatoes used by Freda. Since the sauce is 32 ounces and the tomatoes lose half their volume when cooked, the total volume of tomatoes used is 32 * 2 = 64 ounces.
+
+Since each 16 ounce can of tomatoes contains 3 tomatoes, the total number of tomatoes used is 64 / 16 * 3 = 12.",1,1.0,50,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.5,0
+398,GSM8K,"To solve this problem, let's first find the total number of cars that drove through the traffic jam. We know that there were originally 30 cars on the motorway, and 5 cars took an exit. So, the total number of cars that drove through the traffic jam is 30 - 5 = 25.
+
+We also know that 20 cars drove through in the remaining 15 minutes. Let's call the number of cars that drove through in the first 15 minutes ""x"". Then, the total number of cars that drove through is x + 20.
+
+Since the total number of cars that drove through is 25, we can set up the equation:
+
+x + 20 = 25
+
+Subtracting 20 from both sides gives us:
+
+x = 5
+
+Therefore, 5 cars drove through the traffic jam in the first 15 minutes.",0,0.0,60,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.6,1
+399,GSM8K,"To find out how many potted plants Mary will remain with, we need to calculate the total number of plants she has and subtract the number of plants she will give away.
+
+Mary has 18 new potted plants and 40 window ledges with 2 potted plants each. 
+
+First, let's calculate the total number of plants she has:
+18 (new plants) + 40 * 2 (plants on ledges) = 18 + 80 = 98
+
+Now, let's calculate the number of plants she will give away:
+40 (ledges) * 1 (plant per ledge) = 40
+
+To find out how many plants Mary will remain with, we subtract the number of plants she will give away from the total number of plants:
+98 - 40 = 58
+
+Mary will remain with 58 potted plants.",1,1.0,90,YES,eligible_provisional_numeric_scoring_with_three_confirmed_corrections,Final-number scoring is usable with caveat; 3 rows manually verified against full reasoning and reference.,0.9,0
+ARC_000,ARC-Challenge,"The correct answer is C) the quantity of mass with which the star began.
+
+The life cycle of a star is primarily determined by its initial mass. The mass of a star determines its main sequence lifetime, its final evolutionary stage, and the amount of helium it will produce. More massive stars burn through their fuel more quickly and end their lives in a supernova explosion, while less massive stars live longer and produce more helium.
+
+The radiation present in the star (A) can affect its life cycle, but it is not the primary factor. The amount of energy the star consumes (B) is related to its mass, but it is not the determining factor. The location of the star in the universe (D) does not affect its life cycle.
+
+This concept is described by the Hertzsprung-Russell diagram, which shows the relationship between a star's mass and its luminosity. The diagram helps astronomers understand how stars progress through their life cycles based on their initial mass.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_001,ARC-Challenge,"The correct answer is A) pencils falling from the same height.
+
+This investigation will best test the effects of gravity on moving objects because it directly measures the acceleration due to gravity, which is the force that pulls objects towards the ground. By dropping pencils from the same height, you can observe how the pencils accelerate downward due to gravity, which is a fundamental concept in physics.
+
+The other options do not directly test the effects of gravity on moving objects:
+
+* B) Balloons floating upward from the same height would test the effects of air resistance, not gravity.
+* C) A bicycle speeding up on a flat surface would test the effects of friction, not gravity.
+* D) A ball slowing down on a flat surface would test the effects of friction, not gravity.
+
+Therefore, the correct answer is A) pencils falling from the same height.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_002,ARC-Challenge,D,1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_003,ARC-Challenge,D,0,0.0,90,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,0.9,1
+ARC_004,ARC-Challenge,"The correct answer is C) Fish.
+
+Fish have been on Earth for the longest period of time, with fossil evidence showing that they have remained largely unchanged for over 500 million years. They are one of the oldest groups of animals on the planet, with some species still present today that are similar to those that existed during the Cambrian period, over 500 million years ago.
+
+Humans (A) and birds (B) are much more recent evolutionary developments, with humans emerging around 300,000 years ago and birds evolving from a group of theropod dinosaurs around 150 million years ago.
+
+Reptiles (D) are also ancient, but they are thought to have evolved from a group of fish-like creatures around 320 million years ago, during the Carboniferous period. While they have been on Earth for a long time, they are not as old as fish.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_005,ARC-Challenge,The correct answer is C. Winter.,0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_006,ARC-Challenge,"The correct answer is B) June.
+
+Florida receives the most sunlight energy in June, as it is one of the summer months in the Northern Hemisphere. During this time, the days are long and the sun is high in the sky, resulting in the most direct sunlight and the highest amount of solar energy available.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_007,ARC-Challenge,"The correct answer is D) Relative Motion within the Solar System.
+
+Galileo Galilei is credited with describing the law of relative motion within the solar system, which states that the motion of an object is relative to the observer's frame of reference. This concept challenged the geocentric model of the universe, which placed Earth at the center of the solar system, and laid the foundation for the development of modern astronomy and physics.
+
+The other options are not accurate:
+
+A) The nature of matter is a concept that has been explored by many scientists throughout history, but it is not specifically attributed to Galileo Galilei.
+
+B) The three laws of motion were actually formulated by Sir Isaac Newton, not Galileo Galilei.
+
+C) The law of independent assortment is a concept from genetics, and it was not described by Galileo Galilei.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_008,ARC-Challenge,"The correct answer is A) Body weight.
+
+Body weight is largely influenced by environmental factors such as diet, exercise, and overall lifestyle. While genetics can play a role in determining an individual's genetic predisposition to obesity or other weight-related issues, environmental factors such as diet and physical activity level have a significant impact on body weight.
+
+In contrast, eye color (B) is determined by genetics and is not significantly influenced by environmental factors. Blood type (C) is also determined by genetics and is not influenced by environmental factors. Color blindness (D) is a genetic condition that is not influenced by environmental factors.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_009,ARC-Challenge,D,1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_010,ARC-Challenge,B,1,1.0,90,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,0.9,0
+ARC_011,ARC-Challenge,"D
+
+The presence of a fossilized seashell on a mountain indicates that the mountain was once covered by water, as seashells are typically found in marine environments.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_012,ARC-Challenge,"The correct answer is A) excretory and skeletal systems.
+
+The excretory system, which includes the kidneys, liver, and other organs, is responsible for removing waste products from the body, such as urea, creatinine, and other metabolic byproducts. The skeletal system, which includes bones and joints, also plays a role in waste removal through the process of bone resorption, where old bone tissue is broken down and released into the bloodstream, where it is then excreted.
+
+The other options are not correct because:
+
+* The nervous and endocrine systems are primarily involved in regulating various bodily functions, such as movement, sensation, and hormone secretion, but are not directly involved in waste removal.
+* The circulatory and digestive systems are involved in transporting nutrients and oxygen to cells and removing waste products, but the circulatory system is primarily responsible for transporting blood and oxygen, and the digestive system is primarily responsible for breaking down food, not removing waste products.
+* The respiratory and circulatory systems are involved in removing carbon dioxide and other waste products from the body through exhalation, but the circulatory system is primarily responsible for transporting blood and oxygen, and the respiratory system is primarily responsible for exchanging gases, not removing waste products.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_013,ARC-Challenge,"The correct answer is A) decrease.
+
+When the magnet is moved away from the object, the magnetic force on the object decreases. This is because the magnetic force between two objects depends on the strength of the magnetic field and the distance between them. As the magnet is moved away from the object, the distance between the magnetic field lines and the object increases, resulting in a decrease in the magnetic force.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_014,ARC-Challenge,"The correct answer is A) 43°F.
+
+The process described is an example of heat transfer through conduction. The warmer glass of water (110°F) will transfer heat to the cooler glass of water (50°F) until they reach thermal equilibrium. This process is known as heat transfer by conduction.
+
+As the two glasses of water are left in the room overnight, the warmer glass will lose heat to the cooler glass, causing the temperature of the warmer glass to decrease. The temperature of the cooler glass will increase.
+
+Since the room temperature is 73°F, which is lower than the initial temperature of the warmer glass (110°F), heat will flow from the warmer glass to the cooler glass. The temperature of the warmer glass will decrease, and the temperature of the cooler glass will increase.
+
+The final temperature of both glasses of water will be the same, which is the room temperature, 73°F. However, the question asks for the temperature of both glasses the next day, which is after the heat transfer process has occurred.
+
+The temperature of the warmer glass will be lower than the initial temperature, and the temperature of the cooler glass will be higher than the initial temperature. The temperature of both glasses will be closer to the room temperature, but not exactly 73°F.
+
+The correct answer is A) 43°F, which is the temperature of the warmer glass after heat transfer.",0,0.0,80,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,0.8,1
+ARC_015,ARC-Challenge,"The correct answer is A) a galaxy.
+
+A galaxy is a massive, gravitationally bound system consisting of stars, stellar remnants, interstellar gas, dust, and dark matter, typically dominated by a central supermassive black hole. Galaxies can be enormous, with some containing hundreds of billions of stars and occupying vast distances across space.
+
+In comparison, a black hole, a neutron star, and a solar system are much smaller and more compact objects. A black hole is a region of spacetime where gravity is so strong that nothing, not even light, can escape. A neutron star is a dense, spinning star that is formed when a massive star undergoes a supernova explosion. A solar system, on the other hand, is a small, gravitationally bound system consisting of a star and its planets.
+
+Therefore, a galaxy is the object that occupies the greatest amount of space among the given options.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_016,ARC-Challenge,"To solve this problem, we need to understand that the concentration of a solution is determined by the amount of solute (in this case, salt) per unit volume of solvent (water).
+
+The original solution has 10 grams of salt dissolved in 100 ml of water. To find the concentration of this solution, we can calculate the amount of salt per milliliter of water:
+
+10 grams / 100 ml = 0.1 grams/ml
+
+Since David wants a solution that is half as concentrated, we need to find the amount of salt that would result in a concentration of 0.05 grams/ml.
+
+Let's assume David adds x grams of salt to the original solution. The total amount of salt in the new solution would be:
+
+10 grams (original salt) + x grams (added salt)
+
+The total volume of the new solution would be:
+
+100 ml (original water) + x ml (added water)
+
+Since the concentration of the new solution should be half that of the original solution, we can set up the following equation:
+
+(10 + x) / (100 + x) = 0.05
+
+To solve for x, we can cross-multiply:
+
+10 + x = 0.05(100 + x)
+
+Expanding and simplifying the equation, we get:
+
+10 + x = 5 + 0.05x
+
+Subtracting 0.05x from both sides:
+
+10 + 0.95x = 5
+
+Subtracting 10 from both sides:
+
+0.95x = -5
+
+Dividing both sides by 0.95:
+
+x ≈ -5.26 grams
+
+Since we can't add a negative amount of salt, this solution doesn't make sense. However, we can try to find a solution that is close to half as concentrated.
+
+Let's try adding 5 grams of salt to the original solution. The total amount of salt in the new solution would be:
+
+10 grams (original salt) + 5 grams (added salt) = 15 grams
+
+The total volume of the new solution would be:
+
+100 ml (original water) + 50 ml (added water) = 150 ml
+
+The concentration of the new solution would be:
+
+15 grams / 150 ml = 0.1 grams/ml
+
+This is not half as concentrated as the original solution, but it's close.
+
+Therefore, the correct answer is:
+
+C) 5 grams of salt",0,0.0,80,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,0.8,1
+ARC_017,ARC-Challenge,B,1,1.0,90,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,0.9,0
+ARC_018,ARC-Challenge,The final answer is A.,1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_019,ARC-Challenge,D,0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_020,ARC-Challenge,"The correct answer is D) break the sound barrier on ground.
+
+On October 15, 1997, Andy Green drove the Thrust car at an average speed of 339 meters per second (approximately 768 mph) in the Black Rock Desert in Nevada, breaking the sound barrier on land for the first time.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_021,ARC-Challenge,"The correct answer is D) traveling alone.
+
+Dolphins are highly social animals that live in groups, called pods, which provide them with protection, social interaction, and access to food. Traveling alone would not be an adaptive characteristic for dolphins, as it would put them at a disadvantage in terms of finding food, avoiding predators, and reproducing.
+
+The other options are all adaptive characteristics that help dolphins survive in the ocean:
+
+A) Their sleek skin helps reduce drag and allows them to swim more efficiently.
+
+B) Swimming very fast is an important adaptation for dolphins, as it enables them to catch prey, escape predators, and migrate long distances.
+
+C) Their body shape is well-suited for swimming and diving, with a streamlined body and powerful tail that allows them to propel themselves through the water.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_022,ARC-Challenge,"The correct answer is A) physical property.
+
+The freezing point of water is a physical property because it is a characteristic of a substance that can be measured and observed without changing the substance's chemical composition. It is a property that can be quantified and is typically measured in units of temperature.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_023,ARC-Challenge,D,0,0.0,100,NO,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_024,ARC-Challenge,The correct answer is D.,1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_025,ARC-Challenge,"The correct answer is B) a 50 mL graduated cylinder.
+
+A graduated cylinder is designed to measure the exact volume of a liquid, and it is typically marked with precise measurements in milliliters. This makes it the most accurate tool for measuring 15 milliliters of water.
+
+A 50 mL beaker (A) may not be precise enough to measure 15 milliliters, as it is not marked with smaller measurements. A 500 mL beaker (C) would be too large to measure 15 milliliters accurately. A 500 mL graduated cylinder (D) would also be too large and less precise than a 50 mL graduated cylinder for measuring 15 milliliters.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_026,ARC-Challenge,The correct answer is C.,1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_027,ARC-Challenge,"The correct answer is D) electrical energy.
+
+When Tonya plugged in the toaster, electrical energy was converted into heat energy, which then toasted the bread. However, some of the electrical energy was also lost as heat, rather than being used to toast the bread. This is an example of energy waste, as the electrical energy was not converted into the desired form of energy (heat energy) to toast the bread.
+
+The other options are not correct because:
+
+* Infrared heat energy is the form of energy that is actually used to toast the bread.
+* Visible light energy is not directly involved in the toasting process.
+* Chemical energy is not directly involved in the toasting process, although the bread may undergo some chemical changes as it toasts.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_028,ARC-Challenge,"The correct answer is B) Both girls will stay in the same place.
+
+When two girls pull on opposite ends of a rope with the same force, the net force on the rope is zero. Since the forces are equal and opposite, they cancel each other out, resulting in no net force acting on the rope. As a result, the rope will not move, and both girls will stay in the same place.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_029,ARC-Challenge,"The correct answer is C) Repetition ensures the accuracy of obtained data.
+
+This choice is the best explanation for why scientists repeat investigations. By repeating an investigation multiple times, scientists can increase the reliability and accuracy of their findings, which is essential in scientific research. This process helps to minimize the impact of random errors, biases, and other factors that could affect the outcome of a single investigation.
+
+The other options are not the best explanations for why scientists repeat investigations:
+
+A) While repetition can be a part of the scientific process, it is not the primary reason for repeating an investigation. Proving a hypothesis is often a goal of the investigation, but repetition is not the means to achieve this goal.
+
+B) Publishing a conclusion is not the primary reason for repeating an investigation. While publication is an important aspect of scientific research, it is not the driving force behind repetition.
+
+D) Remaining objective is an important aspect of scientific research, but it is not the primary reason for repeating an investigation. Objectivity is a goal of scientific research, but repetition is a means to achieve this goal, not the goal itself.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_030,ARC-Challenge,"The correct answer is C) are connected in parallel.
+
+When appliances are connected in parallel, each appliance has its own separate circuit and is not affected by the operation of the other appliances. This means that turning on or off one appliance will not affect the performance of the other appliances, as each one is drawing power from its own separate circuit.
+
+In contrast, appliances connected in series would share a common circuit, and turning on or off one appliance would affect the performance of the other appliances. Appliances connected in series would also require a common power source, which is not the case here.
+
+Direct current (DC) and alternating current (AC) are types of electricity, but they do not directly explain why the appliances are not affected by each other's operation.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_031,ARC-Challenge,"The correct answer is B) oxygen and sugar.
+
+Photosynthesis is the process by which plants, algae, and some bacteria convert light energy from the sun into chemical energy in the form of organic compounds, such as sugars. The direct products of photosynthesis are:
+
+* Oxygen (O2) - released into the atmosphere as a byproduct
+* Sugars (such as glucose) - used by the plant for energy and growth
+
+The other options are not direct products of photosynthesis:
+
+* Fats and starches (A) are organic compounds produced by plants, but they are not direct products of photosynthesis. They are synthesized from sugars produced during photosynthesis.
+* Proteins and amino acids (C) are also produced by plants, but they are not direct products of photosynthesis. They are synthesized from amino acids, which are not produced during photosynthesis.
+* Carbon dioxide and water (D) are reactants, not products, of photosynthesis. They are absorbed by plants from the atmosphere and used as inputs for the photosynthetic process.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_032,ARC-Challenge,"The correct answer is A) water vapor.
+
+Humans have the least control over water vapor, as it is a natural component of the atmosphere that is influenced by temperature, humidity, and other environmental factors, rather than human activities. Water vapor is a byproduct of evaporation from oceans, lakes, and rivers, and is also released by plants and animals.
+
+In contrast, sulfur dioxide, ammonia, and nitrogen oxides are all pollutants that are primarily generated by human activities, such as burning fossil fuels, industrial processes, and agricultural activities. These pollutants can be controlled or reduced through regulations, technology, and changes in behavior.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_033,ARC-Challenge,C,1,1.0,90,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,0.9,0
+ARC_034,ARC-Challenge,"The correct answer is B) sweat forming on your body when you exercise.
+
+This is an example of water vapor (sweat) changing back to liquid (sweat droplets) on your skin as you exercise.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_035,ARC-Challenge,"To find the average speed of the duck, we need to divide the distance traveled by the time taken.
+
+Distance = 300 meters
+Time = 10 minutes
+
+First, we need to convert the time from minutes to seconds:
+
+10 minutes x 60 seconds/minute = 600 seconds
+
+Now, we can calculate the average speed:
+
+Average speed = Distance / Time
+= 300 meters / 600 seconds
+= 0.5 meters/second
+
+The correct answer is A) 0.5 m/s.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_036,ARC-Challenge,"The correct answer is D) A woodpecker taps a tree for insects.
+
+This is an example of a learned behavior because woodpeckers do not tap trees instinctively. Instead, they learn to do so by observing and imitating other woodpeckers, or by discovering that tapping trees provides them with food. This behavior is not innate, but rather something that is acquired through experience and learning.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_037,ARC-Challenge,"The correct answer is D) Earth's plates are constantly moving at a very slow rate.
+
+This fact would help Charlie win the argument because it contradicts Dennis's assumption that the Earth's crust is evenly thick everywhere. The fact that the Earth's plates are constantly moving at a slow rate implies that the crust is not uniform in thickness, but rather varies depending on the location and the movement of the plates. This would support Charlie's claim that Dennis is wrong.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_038,ARC-Challenge,"The correct answer is B) Metals conduct electricity.
+
+Explanation: Metals are known for their ability to conduct electricity and heat, which is due to the presence of free electrons in their atomic structure. These free electrons can move freely and carry electrical charge, allowing metals to conduct electricity.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_039,ARC-Challenge,D,0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_040,ARC-Challenge,"The correct answer is B) Competition strengthens while the population contracts.
+
+When there is a reduction of living space, the population is likely to contract as individuals and species compete for the remaining resources. This can lead to increased competition for food, water, and other essential resources, which can strengthen competition among individuals and species.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_041,ARC-Challenge,"The correct answer is A) changing data to fit expected results.
+
+This is a fundamental ethical principle in scientific inquiry, known as ""data integrity."" Changing data to fit expected results is a form of scientific misconduct and can lead to false or misleading conclusions. It is essential to maintain the integrity of data and to avoid any actions that could compromise the validity of research findings.
+
+The other options are all essential components of scientific inquiry:
+
+* B) Designing and carrying out investigations is a critical part of the scientific process, as it allows researchers to test hypotheses and gather data.
+* C) Formulating detailed hypotheses is a key step in the scientific process, as it provides a clear direction for research and helps to guide the investigation.
+* D) Communicating results to others is an important aspect of scientific inquiry, as it allows researchers to share their findings with the scientific community and to contribute to the advancement of knowledge.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_042,ARC-Challenge,The correct answer is D) Perspiration occurs.,1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_043,ARC-Challenge,"The correct answer is D) The rod gains electrons from the fur.
+
+When a plastic rod is rubbed with a piece of fur, electrons are transferred from the fur to the rod. This process is known as triboelectrification. The fur, being a relatively good conductor of electricity, loses electrons to the rod, which becomes negatively charged. The fur, on the other hand, gains electrons and becomes positively charged.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_044,ARC-Challenge,"The correct answer is A) what kind of environment existed long ago.
+
+Fossilized plants can provide information about the types of plants that lived long ago, as well as clues about the environment in which they lived. For example, the presence of certain types of pollen or spores can indicate the types of plants that were present, while the presence of certain types of sediment or rock can indicate the type of environment in which the plants lived. Additionally, the fossilized remains of plants can also provide information about the climate, geography, and other environmental conditions of the past.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_045,ARC-Challenge,"The correct answer is C) 2.
+
+While plants on Earth require four resources (soil, air, water, and sunlight) to stay alive, the situation on the moon or another planet is different. The moon has no atmosphere, which means there is no air for plants to breathe. However, sunlight is still necessary for photosynthesis, which is essential for plant growth.
+
+Additionally, water is also necessary for plant growth, although it may not be readily available on the moon. Soil is not necessary, as plants can grow in a variety of environments, including in space.
+
+Therefore, two resources are necessary for life to exist on the moon or another planet: sunlight and water.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_046,ARC-Challenge,"The correct answer is C) potential.
+
+When the brakes are applied, the car slows down, and the kinetic energy (the energy of motion) is converted into another form of energy. In this case, the kinetic energy is converted into potential energy, which is stored in the special batteries. The potential energy is then used to power the electric motor.
+
+Gravitational energy (A) is not relevant in this scenario, as the brakes are not converting the car's potential energy due to its height or position.
+
+Kinetic energy (B) is the energy of motion, which is being converted into potential energy.
+
+Thermal energy (D) is not directly related to the energy storage in the batteries.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_047,ARC-Challenge,The correct answer is D.,0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_048,ARC-Challenge,"The correct answer is B) opening a trashcan looking for food. This behavior is a learned behavior, as raccoons have been observed to adapt to human environments and exploit food sources that are readily available, such as trashcans.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_049,ARC-Challenge,D,1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_050,ARC-Challenge,"A
+
+Explanation: The technology used on submarines allowed scientists to measure the rate of seafloor spreading, which provided evidence of continental movement. This technology enabled scientists to explain the mechanism that caused the continents to move.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_051,ARC-Challenge,"The correct answer is B) water.
+
+All cells release water as a byproduct of cellular metabolism, including glycolysis, the citric acid cycle, and oxidative phosphorylation. Water is a universal byproduct of cellular respiration and is released in the form of water vapor, sweat, or urine.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_052,ARC-Challenge,"The correct answer is C) Women were excluded from the study.
+
+This investigation is biased because it only includes men, which means the results may not be generalizable to women. Women's bodies and lifestyles can differ significantly from men's, and excluding women from the study may lead to a skewed conclusion. This is an example of a selection bias, where the sample is not representative of the population being studied.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_053,ARC-Challenge,"The correct answer is C) longitudinal.
+
+When the first ball is struck, it compresses and then expands, creating a series of compressions and rarefactions (expansions) that travel through the balls in the same direction. This type of wave is known as a longitudinal wave, where the particles of the medium (in this case, the bowling balls) move back and forth along the same direction as the wave.
+
+Longitudinal waves are characterized by compressions and rarefactions, which is exactly what happens when the first ball is struck, causing the subsequent balls to move away from the group.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_054,ARC-Challenge,"The correct answer is C.
+
+The law of conservation of mass states that matter cannot be created or destroyed in a chemical reaction. In the context of the combustion of ethane, this means that the total mass of the reactants must equal the total mass of the products.
+
+In choice C, the equation 2C_{2}H_{6} + 5O_{2} -> 4CO_{2} + 4H_{2}O demonstrates this principle. The total mass of the reactants (2 x 30.07 g/mol for C_{2}H_{6} + 5 x 32.00 g/mol for O_{2}) is equal to the total mass of the products (4 x 44.01 g/mol for CO_{2} + 4 x 18.02 g/mol for H_{2}O).",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_055,ARC-Challenge,"The correct answer is C) It is an inherited behavior that maintains the population.
+
+This is because salmon are born in freshwater, migrate to saltwater as juveniles, and then return to freshwater to spawn. This life cycle is an example of an inherited behavior, as the salmon's instinct to migrate and spawn is genetically programmed. The behavior is not learned, but rather innate, and is thought to be an adaptation to ensure the survival and reproduction of the species.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_056,ARC-Challenge,"The correct answer is A) frying an egg.
+
+Frying an egg is a chemical change because the heat from the frying process causes a chemical reaction between the egg and the cooking medium (usually oil or butter), resulting in a change in the egg's composition and structure. This is an irreversible process, meaning that once the egg is fried, it cannot be returned to its original state.
+
+The other options are physical changes:
+
+* B) Boiling water is a physical change, as the water is simply changing from a liquid to a gas state due to the heat.
+* C) Breaking a glass cup is a physical change, as the glass is simply breaking into pieces due to the applied force.
+* D) Crushing a piece of bread is a physical change, as the bread is simply being deformed and broken into smaller pieces due to the applied force.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_057,ARC-Challenge,D,1,1.0,90,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,0.9,0
+ARC_058,ARC-Challenge,"To find the final speed of the meteor, we need to subtract the speed slowed by friction from the initial speed.
+
+Initial speed = 35 km/sec
+Speed slowed by friction = 0.02 km/sec
+
+Final speed = Initial speed - Speed slowed by friction
+= 35 km/sec - 0.02 km/sec
+= 34.98 km/sec
+
+The correct answer is B) 34.98 km/sec.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_059,ARC-Challenge,"The correct answer is D) by breaking some of the chemical bonds in the comb.
+
+When Greta passed a comb through her hair, she created friction between the comb and her hair. This friction caused the comb to become charged with static electricity. The comb then attracted the water molecules in the stream, causing them to bend towards the comb. This phenomenon is known as electrostatic induction, where a charged object (in this case, the comb) induces a polarization in a neutral object (the water molecules), causing them to be attracted to the charged object.
+
+The other options are incorrect because:
+
+A) Making the comb more absorbent would not cause the water molecules to bend towards the comb.
+
+B) Giving the comb an electrical charge is a necessary condition for the phenomenon to occur, but it is not the primary reason why the comb bends the stream of water.
+
+C) Increasing the thermal energy of the comb would not cause the water molecules to bend towards the comb.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_060,ARC-Challenge,C) Radio waves spread in all directions.,1,1.0,90,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,0.9,0
+ARC_061,ARC-Challenge,The correct answer is A.,1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_062,ARC-Challenge,"The correct answer is D) group 18 (8A).
+
+Group 18, also known as the noble gases, contains elements that are the least reactive due to their full outer energy level. This full outer energy level makes it difficult for them to form chemical bonds with other elements, resulting in low reactivity.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_063,ARC-Challenge,"The correct answer is B) meters.
+
+The International System of Units (SI) is the standard unit system used in science and engineering. In this case, the flight distance is a physical quantity that can be measured in meters, which is the SI unit for length.
+
+Feet (A) are a non-SI unit of length, and while they are commonly used in everyday applications, they are not suitable for scientific measurements. Miles (C) and kilometers (D) are also non-SI units of length, and while they are commonly used in transportation and navigation, they are not suitable for scientific measurements in this context.
+
+Using meters (B) as the SI unit for measuring flight distance is the most appropriate choice because it is a standard unit of length that is widely used in science and engineering, and it allows for precise and accurate measurements.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_064,ARC-Challenge,"The correct answer is C) continuing long-term process.
+
+The movement of crustal plates is a slow and continuous process that has been occurring for millions of years. It is driven by convection currents in the Earth's mantle and is characterized by the gradual movement of plates over time. This process is not sudden or instantaneous, but rather a slow and steady movement that has shaped the Earth's surface over millions of years.
+
+Choice A is incorrect because the movement of crustal plates is not necessarily increasing over time. While the rate of plate movement may vary, the overall process is still a slow and continuous one.
+
+Choice B is incorrect because the movement of crustal plates is not a series of sudden events. While earthquakes and volcanic eruptions can occur as a result of plate movement, the process itself is a slow and gradual one.
+
+Choice D is incorrect because the movement of crustal plates does not follow a predictable pattern in the sense that it is not a simple, linear process. The movement of plates is influenced by a variety of factors, including the Earth's mantle, the oceanic and continental crust, and the interactions between plates.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_065,ARC-Challenge,"The correct answer is A) takes less force to move something heavy.
+
+A simple machine is a device that makes work easier by changing the direction or magnitude of a force, allowing us to move heavy objects with less effort. This is achieved through mechanical advantage, which is the ratio of the output force to the input force. By using a simple machine, we can reduce the force required to move an object, making it easier to perform tasks such as lifting heavy weights or moving large objects.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_066,ARC-Challenge,"The correct answer is C) group 11 (1B).
+
+Group 11 elements, also known as the transition metals, are known for their shiny and malleable properties, making them suitable for use in jewelry. Examples of group 11 elements include copper (Cu), silver (Ag), and gold (Au).",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_067,ARC-Challenge,"The correct answer is B) precipitation and evaporation.
+
+The ocean's surface salt concentration varies due to the processes of precipitation and evaporation. Precipitation brings freshwater from the atmosphere to the ocean's surface, diluting the salt concentration. Evaporation, on the other hand, removes freshwater from the surface, concentrating the salt.
+
+Transpiration is the process of water movement through a plant and its evaporation from aerial parts, such as leaves, stems, and flowers. While transpiration does involve water movement, it is not a primary factor in the variation of salt concentration in the ocean's surface.
+
+Condensation is the process of water vapor changing back to liquid water, and it is not directly related to the variation of salt concentration in the ocean's surface.
+
+Evaporation and condensation are both important processes in the water cycle, but they do not directly affect the variation of salt concentration in the ocean's surface.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_068,ARC-Challenge,"The correct answer is D) water.
+
+Water has a high specific heat capacity, which means it can absorb and store a lot of energy from the Sun without a large change in temperature. This is why water is often used as a coolant in engines and other applications where heat needs to be managed.
+
+In contrast, snow, sand, and grass have lower specific heat capacities, which means they will retain less energy from the Sun. Snow, for example, has a low specific heat capacity, which is why it can melt quickly when exposed to warm temperatures. Sand and grass also have lower specific heat capacities, which means they will not retain as much energy from the Sun as water.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_069,ARC-Challenge,The correct answer is A.,1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_070,ARC-Challenge,The correct answer is A) convection currents beneath Earth's crust.,1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_071,ARC-Challenge,"The correct answer is D) Heat caused a change in state.
+
+When frozen carbon dioxide (CO2) is heated, it changes directly into a gas, which is a change in state from solid to gas. This is an example of a physical change, where the substance changes its physical properties (in this case, from solid to gas) but does not undergo a chemical reaction to form a new substance.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_072,ARC-Challenge,"The correct answer is D) newspaper.
+
+Newspapers are typically printed on paper that is made from wood pulp, but the trees themselves are not directly used in the production of newspapers. The wood pulp is created through a process of pulping, where wood chips are broken down into a pulp, and then the pulp is bleached, formed into sheets, and printed on.
+
+In contrast, the other options all have a direct need for trees:
+
+* Automobile manufacturing requires wood for the production of various components, such as engine blocks, dashboards, and trim.
+* Home building requires wood for framing, roofing, and other structural elements.
+* Landscaping often involves the use of wood for planters, fences, and other decorative elements.
+
+Therefore, the newspaper industry has the least need for trees.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_073,ARC-Challenge,"The correct answer is B) They eliminate some competition for nutrients.
+
+Sequoia trees in the Sierra Nevada have been around for thousands of years, and their longevity is likely due in part to the fact that they have been able to outcompete other vegetation in the forest. Forest brush fires can help to eliminate some of the competition for nutrients by clearing out other vegetation and creating a more open canopy for the sequoias to grow. This allows the sequoias to receive more sunlight and access to nutrients, which can help them to thrive.
+
+The other options are not accurate:
+
+A) Secondary succession refers to the process of re-growth after a large-scale disturbance, such as a hurricane or a volcanic eruption. While forest brush fires can contribute to secondary succession, they are not the primary mechanism by which sequoias have benefited.
+
+C) Pioneer species are typically small, fast-growing plants that can thrive in disturbed or newly created habitats. Sequoias are not pioneer species, and forest brush fires do not allow them to act as such.
+
+D) While forest brush fires can stimulate growth in some plants, this is not the primary benefit for sequoias. Sequoias are shade-tolerant and can thrive in the shaded conditions that follow a forest brush fire, but they do not require the stimulation of growth that comes from fires.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_074,ARC-Challenge,"To estimate the number of bundles of shingles needed, we need to calculate the total number of squares in the roof area and then divide it by 3, since each bundle covers one-third of a square.
+
+First, we need to convert the roof area from square feet to squares. Since a square is 100 sq. ft., we can divide the roof area by 100 to get the number of squares:
+
+2000 sq. ft. / 100 sq. ft./square = 20 squares
+
+Since each bundle covers one-third of a square, we can divide the number of squares by 3 to get the number of bundles:
+
+20 squares / 3 = 6.67 bundles
+
+Since we can't order a fraction of a bundle, we need to round up to the nearest whole number to ensure we have enough supplies. Therefore, the engineer should order approximately 7 bundles of shingles.
+
+The closest answer choice is C) 63, but that is not correct. The correct answer is not listed, but if we round up to the nearest whole number, the correct answer would be 7, which is not an option.",1,1.0,0,NO,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,0.0,0
+ARC_075,ARC-Challenge,"The correct answer is C) Both support the plant.
+
+The stem of a tree is a woody, supportive structure that provides structural support and allows the tree to grow towards the sunlight. Similarly, the stem of a flower is a supporting structure that holds the flower's reproductive organs and allows it to grow towards the light.
+
+While the stem of a tree is woody and has bark, the stem of a flower is typically soft and fleshy. Thorns are not a characteristic of either tree stems or flower stems.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_076,ARC-Challenge,"The correct answer is C) It changes into other types of matter and energy.
+
+When a wooden log is burned, it undergoes a chemical reaction called combustion, where the wood reacts with oxygen to produce heat, light, and various gases, such as carbon dioxide, water vapor, and carbon monoxide. The wood is not completely destroyed, but rather transformed into different substances and forms of energy.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_077,ARC-Challenge,"The correct answer is A) to validate results.
+
+Performing repeated trials of an experiment helps to validate the results by reducing the impact of random error and increasing the reliability of the findings. By repeating the experiment multiple times, researchers can increase confidence in their results and demonstrate that the findings are not due to chance. This is an important aspect of the scientific method, as it allows researchers to rule out alternative explanations and confirm their hypotheses.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_078,ARC-Challenge,"The correct answer is D) They cannot be divided into smaller substances.
+
+This is a fundamental characteristic of elements, as they are the simplest substances in chemistry and cannot be broken down into simpler substances by chemical means.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_079,ARC-Challenge,"The correct answer is D) The tapeworm helps the dog survive.
+
+Tapeworms are parasitic organisms that live in the intestines of dogs and feed on the nutrients from the dog's food. In return, the tapeworm provides the dog with no direct benefits, but rather, it can cause harm to the dog by blocking the intestines, leading to malnutrition, weight loss, and other health problems.
+
+Therefore, the tapeworm does not help the dog survive, but rather, it can harm the dog. The correct answer is D) The tapeworm helps the dog survive, which is incorrect. The correct answer is B) The dog becomes ill, and the tapeworm benefits.",1,1.0,100,NO,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_080,ARC-Challenge,"The correct answer is D) Oceans.
+
+Both Earth and the moon have oceans, although the moon's oceans are not liquid and are composed of water ice.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_081,ARC-Challenge,"The correct answer is D) nervous system.
+
+The nervous system regulates the digestive system through the autonomic nervous system, which controls involuntary actions such as digestion, heart rate, and breathing. The autonomic nervous system sends signals to the digestive system to control the rate of digestion, contraction and relaxation of muscles, and secretion of digestive enzymes and acids.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_082,ARC-Challenge,D,0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_083,ARC-Challenge,"The correct answer is D) glaciers.
+
+Evaporation occurs at the highest rate on glaciers because of their unique characteristics. Glaciers are formed from compressed snow and ice, which are in close contact with the atmosphere. This close contact allows for maximum heat transfer and evaporation to occur. Additionally, glaciers are often located in high-altitude, cold environments, which also contribute to high rates of evaporation.
+
+In contrast, rivers, streams, and estuaries tend to have lower rates of evaporation due to the presence of water and the lower temperatures associated with these environments.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_084,ARC-Challenge,The best answer is A.,1,1.0,90,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,0.9,0
+ARC_085,ARC-Challenge,"The correct answer is A) There is greater variation among the offspring.
+
+Sexual reproduction involves the combination of genetic material from two parents, resulting in offspring with unique combinations of traits. This leads to greater genetic variation among the offspring, which can be beneficial for a species as it adapts to changing environments and evolves over time.
+
+Asexual reproduction, on the other hand, involves the production of offspring that are genetically identical to the parent, as there is no mixing of genetic material. This can lead to a lack of genetic variation, making it more difficult for the species to adapt to changing environments.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_086,ARC-Challenge,"To solve this, we need to know the atomic number of chlorine and then find the element with one more proton.
+
+The atomic number of chlorine is 17. This means that an atom of chlorine has 17 protons.
+
+To find the element with one more proton, we add 1 to the atomic number of chlorine:
+
+17 + 1 = 18
+
+Now, we need to find the element with atomic number 18.
+
+The element with atomic number 18 is argon (Ar).
+
+Therefore, the final choice is:
+
+B) argon (Ar)",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_087,ARC-Challenge,The correct answer is A) absorbed by the carpet.,1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_088,ARC-Challenge,D,1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_089,ARC-Challenge,"The correct answer is D) warm and wet.
+
+Here's why:
+
+1. The air mass travels north over the Pacific Ocean, which is a warm ocean. As the air mass warms, it will gain moisture from the ocean, making it warm and wet.
+2. The air mass then travels eastward across the United States, which is a landmass. As the air mass cools, it will lose moisture, but since it has already gained moisture over the ocean, it will still be warm and wet.
+
+Therefore, the expected weather pattern is warm and wet.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_090,ARC-Challenge,The correct answer is A.,0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_091,ARC-Challenge,"The correct answer is B) Kinetic energy increases and potential energy decreases.
+
+As the child rides on the sled down the hill, the sled's potential energy (stored energy due to its height) decreases as it rolls down the hill. This is because the sled is losing its stored energy due to gravity.
+
+At the same time, the sled's kinetic energy (the energy of motion) increases as it gains speed and moves down the hill. This is because the sled is converting its potential energy into kinetic energy as it rolls down the hill.
+
+Therefore, the correct answer is B) Kinetic energy increases and potential energy decreases.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_092,ARC-Challenge,The correct answer is C.,1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_093,ARC-Challenge,"The correct answer is D) waste production.
+
+Both unicellular and multicellular organisms produce waste. Unicellular organisms, such as bacteria and protozoa, produce waste through processes like excretion and excretion systems. Multicellular organisms, such as plants and animals, also produce waste through similar processes, including excretion, respiration, and decomposition.
+
+The other options are not shared characteristics of unicellular and multicellular organisms:
+
+A) Sexual reproduction is not a characteristic of all unicellular organisms, and some multicellular organisms may reproduce asexually.
+
+B) Specialized cells are a characteristic of multicellular organisms, but not all unicellular organisms have specialized cells.
+
+C) Organ systems are a characteristic of multicellular organisms, but not all unicellular organisms have organ systems.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_094,ARC-Challenge,"To determine which option will result in the least gravitational attraction, we need to consider the formula for gravitational attraction:
+
+F = G \* (m1 \* m2) / r^2
+
+where:
+- F is the gravitational force
+- G is the gravitational constant (approximately 6.67408e-11 N\*m^2/kg^2)
+- m1 and m2 are the masses of the objects
+- r is the distance between the centers of the objects
+
+Since the masses of the objects are the same in all options (2g), we can focus on the distance between them.
+
+The gravitational force decreases with the square of the distance between the objects. Therefore, the option with the largest distance will result in the least gravitational attraction.
+
+Comparing the options:
+
+A) 2 meters apart
+B) 4 meters apart
+C) 6 meters apart
+D) 8 meters apart
+
+Option D has the largest distance (8 meters), so it will result in the least gravitational attraction.
+
+The final answer is D.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_095,ARC-Challenge,D,0,0.0,100,NO,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_096,ARC-Challenge,D,1,1.0,90,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,0.9,0
+ARC_097,ARC-Challenge,"The correct answer is A) Copper is a good conductor of electricity.
+
+This statement is an opinion because it expresses a subjective evaluation of copper's properties. While copper is indeed a good conductor of electricity, the statement ""good"" is a subjective term that can vary depending on individual perspectives and criteria.
+
+The other options are factual statements about copper:
+
+* B) Copper mixed with silver is expensive: This is a statement about the cost of a specific alloy, which can be verified through market data.
+* C) Copper can be pounded into many shapes: This is a statement about the physical properties of copper, which can be observed and verified through experimentation.
+* D) Copper is an excellent conductor of heat: This is a statement about the physical properties of copper, which can be measured and verified through scientific experiments.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1
+ARC_098,ARC-Challenge,"The correct answer is A) space probe.
+
+A space probe is an unpiloted spacecraft designed to gather information while orbiting planets other than Earth. Space probes are typically unmanned and are used to study the environment, geology, and atmosphere of other planets and celestial bodies.",1,1.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,0
+ARC_099,ARC-Challenge,"The correct answer is B) It decreases the amount of resources.
+
+As the human population increases, the demand for natural resources such as food, water, energy, and land also increases. However, the supply of these resources is often limited by factors such as climate change, soil degradation, and the depletion of non-renewable resources. This imbalance between demand and supply can lead to a decrease in the availability of natural resources, making it more challenging for humans to meet their basic needs.
+
+The other options are incorrect because:
+
+A) Increasing population does not necessarily increase the supply of resources. In fact, the opposite is often true.
+
+C) An increase in population would likely increase the demand for resources, not decrease it.
+
+D) The quality of resources is not directly affected by population growth. While population growth can lead to increased pressure on resources, it does not necessarily improve their quality.",0,0.0,100,YES,eligible_provisional_deterministic_key_scoring,Stored labels match parsed choice-key comparison for 100/100 rows; source key not independently re-audited.,1.0,1

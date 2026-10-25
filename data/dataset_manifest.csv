@@ -1,0 +1,8 @@
+dataset_name,configuration,split,n_rows,sampling_method,inclusion_status,scoring_method,known_limitations
+cais/mmlu,all,test,100,first_100,INCLUDED,"Numeric choice extraction (0-3)","Single subject: abstract algebra only (100%). Inverted confidence."
+openai/gsm8k,main,test,100,first_100,INCLUDED,"Regex numeric match + 3 confirmed audit fixes","Regex takes last number; 3 corrections verified; 4 trailing token ambiguities flagged."
+allenai/ai2_arc,ARC-Challenge,test,100,first_100,INCLUDED,"Parsed choice letter/option comparison","Deterministic answer-key consistency verified; answer key not independently human-audited."
+pminervini/HaluEval,qa_samples,data,100,first_100,QUARANTINED,"Lexical overlap heuristic","Excluded: omitted knowledge context; reference label describes source text, not model completion."
+truthfulqa/truthful_qa,generation,validation,100,first_100,QUARANTINED,"Keyword overlap against best_answer","Excluded: semantic truthfulness cannot be measured via crude token overlap."
+google/mbpp,full,train,100,first_100,QUARANTINED,"Compile/token overlap heuristic","Excluded: loaded training split; official task IDs unmapped; no sandboxed unit tests executed."
+TrustStress-100,adversarial_curated,eval,100,curated,QUARANTINED,"Manual spot audit incomplete","Excluded: 23 candidate corrections pending full rubric-based adjudication."
