@@ -268,7 +268,8 @@ def build_manuscript():
         "in factual science; (3) We quantify the False Reassurance Rate of black-box self-checking, demonstrating that 42.6% of affirmative "
         "verification decisions on complex tasks are objectively incorrect; and (4) We evaluate out-of-domain transfer via Leave-One-Domain-Out "
         "(LODO) cross-validation under strict budget parity (B = 2 auxiliary queries), proving that universal decision thresholds induce severe "
-        "coverage collapse or unselective acceptance."
+        "coverage collapse or unselective acceptance. All evaluation code and audited datasets are publicly available at "
+        "https://github.com/akgetscreative-wq/slm-trust-calibration."
     )
 
     # -------------------------------------------------------------------------
@@ -927,9 +928,10 @@ def build_manuscript():
 
     add_h2("D. Reproducibility Assurance")
     add_p(
-        "All code, audited datasets, prompt schemas, and result files are fully packaged in the companion open-source repository. Deterministic "
-        "replication scripts (code/reproduce_analysis.py) reproduce all reported metrics, tables, and publication figures without requiring local "
-        "GPU hardware or model weights, and an interactive evaluation utility (code/trust_evaluator.py) provides black-box risk scoring demonstration."
+        "All code, audited datasets, prompt schemas, and result files are fully accessible at the open-source companion repository: "
+        "https://github.com/akgetscreative-wq/slm-trust-calibration. Deterministic replication scripts (reproduce_analysis.py) "
+        "reproduce all reported metrics, tables, and publication figures without requiring local GPU hardware or model weights, "
+        "and an interactive evaluation utility (trust_evaluator.py) provides black-box risk scoring demonstration."
     )
 
     # -------------------------------------------------------------------------

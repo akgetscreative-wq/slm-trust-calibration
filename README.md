@@ -1,115 +1,149 @@
-# Research Submission: LLM Trust Calibration Under Domain Shift
+# When Should a Small Language Model Be Trusted?
+### Evaluating Verbalized Confidence and Self-Verification Under Domain Shift
 
-**Project:** When Should a Small Language Model Be Trusted? Evaluating Verbalized Confidence and Self-Verification Under Domain Shift  
-**Target Model:** `llama3.2:3b` (Inference executed in Google Colab Web / GPU container)  
-**Author:** Aayush Kumar (Department of Computer Science, VIT-AP University, Amaravati, Andhra Pradesh, India — `aayush@vitap.com`)  
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Format: IEEE Conference](https://img.shields.io/badge/Format-IEEE%20Conference%20(8%20Pages)-orange.svg)](paper/research_paper.pdf)
+[![Model: Llama-3.2-3B](https://img.shields.io/badge/Model-Meta%20Llama--3.2--3B-purple.svg)](https://huggingface.co/meta-llama/Llama-3.2-3B)
 
----
-
-## 1. Study Overview & Evaluation Scope
-
-This package delivers an audited empirical investigation examining whether two lightweight, non-invasive uncertainty signals—**verbalized numerical confidence** and **structured zero-shot self-verification**—can reliably identify incorrect completions from `llama3.2:3b` without requiring internal logit tensors or cloud API access.
-
-### Core Evaluated Cohorts:
-1. **Primary Reasoning Cohort (N = 300):**
-   - **ARC-Challenge:** 100 multiple-choice science reasoning questions (commonsense distractor traps).
-   - **GSM8K:** 100 grade-school math word problems (incorporating 3 confirmed manual audit corrections: IDs 327, 358, 370).
-   - **MMLU Abstract Algebra:** 100 university-level symbolic algebra multiple-choice questions.
-2. **Controlled Factual Validation Cohort (N = 310):**
-   - **MMLU Biology:** 310 life science questions (`high_school_biology` and `college_biology`) evaluated under identical prompt templates, temperature (`0.0`), seed (`42`), and budget parity ($B=2$).
-   - Demonstrates that confidence inversion is domain-specific to symbolic mathematics, restoring to normal alignment in factual science ($\text{AUROC} = 0.548$, mean confidence $+10.1$ pp higher on correct answers).
-
-### Quarantined Benchmarks:
-HaluEval (100), TruthfulQA (100), MBPP (100), and TrustStress-100 (100) are **quarantined** from primary metrics due to unvalidated lexical-overlap heuristics, training split usage, and unadjudicated adversarial prompts.
+Official open-source research and replication repository for the IEEE conference paper:  
+**"When Should a Small Language Model Be Trusted? Evaluating Verbalized Confidence and Self-Verification Under Domain Shift"**  
+Author: **Aayush Kumar**, Department of Computer Science, VIT-AP University (`aayush@vitap.com`).
 
 ---
 
-## 2. Directory Structure
+## 📄 Research Paper
+
+The complete, submission-ready 8-page IEEE conference research paper is available in both formats:
+- **PDF Version:** [`paper/research_paper.pdf`](paper/research_paper.pdf)
+- **Word Document:** [`paper/research_paper.docx`](paper/research_paper.docx)
+
+---
+
+## 🔬 Core Empirical Findings
+
+This study evaluates two non-invasive black-box uncertainty indicators in **Llama-3.2-3B** under an auxiliary query budget of $B = 2$: **numerical verbalized confidence** ($s_{\text{conf}} \in [0, 100]$) and **structured zero-shot self-verification** ($s_{\text{check}} \in \{\text{YES}, \text{NO}\}$).
+
+1. **Pathological Confidence Inversion on Symbolic Mathematics:**
+   On MMLU Abstract Algebra ($N=100$), confidence displays severe inversion: the model assigned an average subjective confidence of **$42.9\%$ to incorrect answers**, contrasted with only **$32.9\%$ to correct completions**. This inverts error-risk AUROC to **$0.384$** (substantially below random guessing).
+2. **Resolution via MMLU Biology Validation:**
+   Evaluating 310 MMLU Biology instances under identical conditions proves that confidence inversion is domain-specific to symbolic deduction: in factual biology, accuracy rises to **$67.7\%$**, mean confidence is **$+10.1\text{ pp}$** higher on correct answers ($66.3\%$ vs. $56.2\%$), error AUROC restores to **$0.548$**, and false reassurance drops to $29.1\%$.
+3. **High False Reassurance Rate ($42.6\%$):**
+   Across the primary reasoning cohort, the model endorsed 249 responses as valid, of which **106 were objectively false**.
+4. **Out-of-Domain Threshold Collapse:**
+   In Leave-One-Domain-Out (LODO) cross-validation, static decision thresholds fitted on auxiliary domains fail under domain shift: collapsing MMLU coverage to $2\%$ (coverage starvation) while unselectively admitting $96\%$ of ARC-Challenge responses without error filtration.
+
+---
+
+## 📊 Summary Results Table
+
+| Domain | Cognitive Type | N | Accuracy (%) | Conf Delta (Corr - Err) | Error AUROC | Error AUPRC |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| **GSM8K** | Multi-Step Arithmetic | 100 | 67.0% | +19.7 pp (71.2 / 51.5) | 0.632 | 0.399 |
+| **MMLU Biology** | Factual Life Science | 310 | 67.7% | +10.1 pp (66.3 / 56.2) | 0.548 | 0.354 |
+| **ARC-Challenge** | Commonsense / QA | 100 | 61.0% | +7.3 pp (79.4 / 72.1) | 0.475 | 0.401 |
+| **MMLU Algebra** | Symbolic / Abstract | 100 | 31.0% | **-10.0 pp (32.9 / 42.9)** | **0.384 (Inverted)** | 0.636 |
+
+---
+
+## 📂 Repository Structure
 
 ```text
-submission/
-├── paper.pdf                                # Final 8-page compiled IEEE Conference Research Paper (PDF)
-├── research_paper.pdf                       # Canonical copy of IEEE Conference Research Paper (PDF)
-├── README.md                                # This comprehensive documentation
-├── requirements.txt                         # Python runtime dependencies
-├── audit_status.md                          # Comprehensive audit log (All checks PASS)
-├── paper_source/
-│   ├── research_paper.docx                  # Fully editable Word document (Official IEEE 2-column format)
-│   ├── research_paper.md                    # Synchronized Markdown source paper
-│   ├── manuscript.docx                      # Compatibility copy of research paper (DOCX)
-│   └── manuscript.md                        # Compatibility copy of research paper (MD)
+.
+├── README.md                            # Repository documentation & guide
+├── LICENSE                              # MIT License
+├── requirements.txt                     # Python dependencies
+├── audit_status.md                      # Audit log certifying provenance & quarantine checks
+├── paper/
+│   ├── research_paper.pdf               # Final 8-page IEEE conference paper (PDF)
+│   └── research_paper.docx              # Editable IEEE conference Word document
+├── notebooks/
+│   ├── LLM_Trust_Calibration_Research.ipynb   # Colab notebook: Primary benchmark inference
+│   └── MMLU_Biology_Validation_Colab.ipynb    # Colab notebook: GPU Biology validation
 ├── code/
-│   ├── reproduce_analysis.py                # Standalone script reproducing all metrics & tables
-│   ├── trust_evaluator.py                   # Interactive CLI demo utility for answer-risk estimation
-│   ├── generate_ieee_architecture.py        # System architecture diagram generator (Fig. 1)
-│   ├── generate_comparative_figures.py      # Cross-disciplinary figure generator (Fig. 3 & Fig. 4)
-│   └── build_final_ieee_manuscript.py       # End-to-end Python builder for IEEE Research Paper DOCX & PDF
+│   ├── reproduce_analysis.py            # Standalone deterministic evaluation script
+│   ├── trust_evaluator.py               # Interactive CLI risk-scoring demo
+│   ├── generate_ieee_architecture.py    # Architecture diagram generator (Fig. 1)
+│   ├── generate_comparative_figures.py  # Cross-disciplinary figure generator (Fig. 3 & Fig. 4)
+│   └── build_final_ieee_manuscript.py   # Automated IEEE manuscript compiler
 ├── data/
-│   ├── approved_analysis_data.csv           # Audited 300-row primary analysis dataset
-│   ├── correction_log.csv                   # Confirmed audit corrections (IDs 327, 358, 370)
-│   ├── dataset_manifest.csv                 # Manifest of included & quarantined datasets
-│   └── human_review.csv                     # Flagged GSM8K edge cases (IDs 318, 323, 378, 398)
+│   ├── approved_analysis_data.csv       # Primary audited 300 instances
+│   ├── correction_log.csv               # Confirmed GSM8K label corrections (IDs 327, 358, 370)
+│   ├── dataset_manifest.csv             # Manifest of included & quarantined datasets
+│   └── human_review.csv                 # Flagged boundary cases
 └── results/
-    ├── final_metrics.csv                    # Baseline signal metrics (pooled & within-domain)
-    ├── fold_metrics.csv                     # Leave-one-domain-out (LODO) cross-validation results
-    ├── selective_prediction_coverage.csv    # Selective accuracy vs. target coverage (50%, 75%, 90%)
-    ├── failure_cases.csv                    # Catalog of 89 failure cases across 4 archetypes
+    ├── final_metrics.csv                # Baseline evaluation metrics
+    ├── fold_metrics.csv                 # Leave-One-Domain-Out cross-validation results
+    ├── selective_prediction_coverage.csv# Selective accuracy vs. target coverage
+    ├── failure_cases.csv                # Catalog of 89 failure cases across 4 archetypes
     └── figures/
-        ├── fig_architecture.png             # Fig. 1: System architecture diagram
-        ├── fig1_domain_calibration.png      # Fig. 2: Observed accuracy vs. verbalized confidence
-        ├── fig2_domain_auroc.png            # Fig. 3: Error-ranking AUROC across all 4 domains
-        ├── fig5_symbolic_vs_factual_calibration.png # Fig. 4: Symbolic Algebra vs. Factual Biology contrast
-        └── fig3_risk_coverage_curve.png     # Fig. 5: Selective accuracy trade-off curves under shift
+        ├── fig_architecture.png         # Fig. 1: System architecture
+        ├── fig1_domain_calibration.png  # Fig. 2: Calibration curves
+        ├── fig2_domain_auroc.png        # Fig. 3: Error AUROC across 4 domains
+        ├── fig5_symbolic_vs_factual_calibration.png # Fig. 4: Metacognitive contrast
+        └── fig3_risk_coverage_curve.png # Fig. 5: Risk-coverage trade-off curves
 ```
 
 ---
 
-## 3. How to Reproduce All Results
+## 🚀 Quickstart & Reproduction
 
-### Dependencies
-Install dependencies (no local model weights or inference required):
+### 1. Installation
+Install runtime dependencies (no GPU required):
 ```bash
+git clone https://github.com/akgetscreative-wq/slm-trust-calibration.git
+cd slm-trust-calibration
 pip install -r requirements.txt
 ```
 
-### Execution
-Run the standalone reproduction script:
+### 2. Reproduce All Metrics and Tables
+Recompute all baseline metrics, cross-validation folds, and selective prediction coverage sweeps:
 ```bash
 python code/reproduce_analysis.py --data data/approved_analysis_data.csv --out results
 python code/generate_comparative_figures.py
 ```
-This recomputes all metrics, generates CSV summaries, and exports all 5 publication figures to `results/figures/`.
 
-### Run the Operational Demo
-Test the answer-risk evaluator with arbitrary model inputs:
+### 3. Run the Interactive Risk Evaluator
+Test the black-box risk estimator with custom certainty and verification verdicts:
 ```bash
+# High confidence, confirmed self-check -> Accepted
 python code/trust_evaluator.py --confidence 90 --self-check YES
+
+# Low confidence, rejected self-check -> Abstain / Human Escalation
 python code/trust_evaluator.py --confidence 30 --self-check NO
 ```
 
-### Recompile IEEE Research Paper (DOCX + PDF)
+### 4. Rebuild the IEEE Research Paper (DOCX & PDF)
+Recompile the 8-page IEEE conference document from scratch:
 ```bash
 python code/build_final_ieee_manuscript.py
 ```
 
 ---
 
-## 4. Key Empirical Findings
+## 📓 Google Colab Notebooks
 
-1. **Pathological Confidence Inversion on MMLU Algebra ($\text{AUROC} = 0.384$):** On abstract algebra ($N=100$), confidence displays a severe inversion: the model was more confident on incorrect answers ($42.9\%$) than on correct answers ($32.9\%$).
-2. **Resolution via MMLU Biology Validation ($\text{AUROC} = 0.548$):** On 310 MMLU Biology instances, confidence calibration realigns: accuracy rises to $67.7\%$, mean confidence is $+10.1$ pp higher on correct answers ($66.3\%$ vs. $56.2\%$), proving that inversion is domain-specific to symbolic mathematics.
-3. **High False Reassurance in Self-Verification ($42.6\%$):** Of 249 responses endorsed by the model with a self-check `YES`, **106 were objectively incorrect** across the primary cohort.
-4. **Selective Prediction Domain Breakdown:**
-   - On GSM8K, selective prediction successfully lifts accepted accuracy from **$67.0\%$ to $76.0\%$ ($+9.0$ pp)** at $50\%$ target coverage.
-   - However, thresholds trained on other domains break down when applied out-of-domain: MMLU suffers extreme coverage collapse (only $2\%$ accepted at $50\%$ target threshold), while ARC-Challenge indiscriminately accepts $96\%$ of responses without filtering errors.
-5. **No Universal Trust Gate:** Combining confidence and self-verification does not yield a consistent advantage across all domains, proving that post-hoc error detection requires task-conditioned calibration.
+All original model inference runs on **Llama-3.2-3B** were executed using Google Colab on an **NVIDIA Tesla T4 GPU (16 GB)**:
+- **`notebooks/LLM_Trust_Calibration_Research.ipynb`**: Original 37-cell notebook running Ollama, prompt extraction, and scoring.
+- **`notebooks/MMLU_Biology_Validation_Colab.ipynb`**: Factual biology validation running 310 items under budget parity $B = 2$.
 
 ---
 
-## 5. Audit & Deliverable Verification
-- **Formatting:** IEEE Conference 2-column format, US Letter, Times New Roman typography, 8 pages.
-- **Originality:** 100% original, plagiarism-free academic prose with zero boilerplate.
-- **Figures:** 5 publication-grade figures (`fig_architecture.png`, `fig1_domain_calibration.png`, `fig2_domain_auroc.png`, `fig5_symbolic_vs_factual_calibration.png`, `fig3_risk_coverage_curve.png`).
-- **Tables:** 7 comprehensive comparative tables (Paradigms, Baseline, Metacognitive Matrix, LODO, Selective Prediction, Failure Taxonomy, Edge Compute Economics).
-- **Citations:** 22 verified peer-reviewed publications with primary DOIs.
-- **Audit Verdict:** `PASS` certified in `audit_status.md`.
+## 📜 Citation
+
+If you find this work or dataset useful in your research, please cite:
+
+```bibtex
+@inproceedings{kumar2026slmtrust,
+  author    = {Kumar, Aayush},
+  title     = {When Should a Small Language Model Be Trusted? Evaluating Verbalized Confidence and Self-Verification Under Domain Shift},
+  booktitle = {IEEE Conference Proceedings},
+  year      = {2026},
+  url       = {https://github.com/akgetscreative-wq/slm-trust-calibration}
+}
+```
+
+---
+
+## ⚖️ License
+This project is licensed under the [MIT License](LICENSE).
