@@ -8,7 +8,7 @@
 
 Official open-source research and replication repository for the IEEE conference paper:  
 **"When Should a Small Language Model Be Trusted? Evaluating Verbalized Confidence and Self-Verification Under Domain Shift"**  
-Author: **Aayush Kumar**, School of Computer Science and Engineering, VIT-AP University, Amaravati, Andhra Pradesh, India (`Aayush.24bcb7029@vitapstudent.ac.in`).
+Author: **Aayush Kumar**, School of Computer Science and Engineering, VIT-AP University, Amaravati, Andhra Pradesh, India (`aayush.24bcb7029@vitapstudent.ac.in`).
 
 ---
 
